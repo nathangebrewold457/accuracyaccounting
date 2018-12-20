@@ -1225,7 +1225,7 @@
     width:200px;
     height:200px;
     border-radius:100px;
-    background:url(losangeles.jpg);
+    background:green;
     background-size: cover;
     background-repeat: no-repeat;
   }
