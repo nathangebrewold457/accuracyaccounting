@@ -1,0 +1,1218 @@
+  /* WALLPAPER */
+    .services_wallpaper {
+      width:100%;
+      height:300px;
+      background:url(services_wallpaper.jpg);
+      background-size:cover;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_wallpaper h2 {
+      font-size:50px;
+      font-family:Times;
+      font-style: italic;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  /* END OF WALLPAPER */
+
+  /*  INTROTEXT */
+    .services_introtextBox {
+      width:100%;
+      height:600px;
+      background-color:white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_introtextBox p{
+      width:270px;
+      height:250px;
+      margin-left: auto;
+      margin-right:auto;
+      margin-top:50px;
+      color:black;
+      font-size:23px;
+      line-height:30px;
+    }
+  /*  END OF INTROTEXT */
+
+
+  /* CALENDER */
+    .services_calenderHeader {
+      font-size:45px;
+      text-align: center;
+      color:white;
+      margin-top:30px;
+      margin-bottom:50px;
+    }
+    .services_calenderOuterbox {
+      width:270px;
+      height:1056px;
+      margin-left: auto;
+      margin-right:auto;
+      border:3px solid white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_calendarBox {
+      width:270px;
+      height:100px;
+      display:flex;
+      flex-flow:row wrap;
+      border:3px solid white;
+    }
+    .services_calendarBox:hover {
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:white;
+    }
+    .services_calendarBox:hover td {
+      color:black;
+    }
+    .services_calendarBox td{
+      font-size:25px;
+      color:white;
+      margin:auto;
+    }
+  /* END OF CALENDAR */
+
+
+  /* SERVICES */
+    .services_linksOuterbox_audit {
+      width:100%;
+      height:350px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_audit h2 {
+      width:350px;
+      height:50px;
+      font-size:33px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_audit p {
+      font-size:25px;
+      width:250px;
+      height:150px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport {
+      width:100%;
+      height:450px;
+      margin-top:320px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_annualReport h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:150px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport p {
+      font-size:25px;
+      width:260px;
+      height:150px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping {
+      width:100%;
+      height:600px;
+      margin-top:630px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+
+    .services_linksOuterbox_bookkeeping h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping p {
+      font-size:25px;
+      width:260px;
+      height:150px;
+      margin-top:-200px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep {
+      width:100%;
+      height:700px;
+      margin-top:450px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:50px;
+      color:white;
+      font-size:30px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_taxPrep h2 {
+      width:1000px;
+      height:50px;
+      font-size:32px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep p {
+      font-size:25px;
+      width:260px;
+      height:150px;
+      margin-top:-200px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+  /* END OF SERVICES LINKS */
+@media only screen and (min-width:375px) {
+  /* WALLPAPER */
+    .services_wallpaper {
+      width:100%;
+      height:300px;
+      background:url(services_wallpaper.jpg);
+      background-size:cover;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_wallpaper h2 {
+      font-size:50px;
+      font-family:Times;
+      font-style: italic;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  /* END OF WALLPAPER */
+
+  /*  INTROTEXT */
+    .services_introtextBox {
+      width:100%;
+      height:600px;
+      background-color:white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_introtextBox p{
+      width:280px;
+      height:250px;
+      margin-left: auto;
+      margin-right:auto;
+      margin-top:50px;
+      color:black;
+      font-size:23px;
+      line-height:30px;
+    }
+  /*  END OF INTROTEXT */
+
+
+  /* CALENDER */
+    .services_calenderHeader {
+      font-size:45px;
+      text-align: center;
+      color:white;
+      margin-top:30px;
+      margin-bottom:50px;
+    }
+    .services_calenderOuterbox {
+      width:280px;
+      height:1056px;
+      margin-left: auto;
+      margin-right:auto;
+      border:3px solid white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_calendarBox {
+      width:280px;
+      height:100px;
+      display:flex;
+      flex-flow:row wrap;
+      border:3px solid white;
+    }
+    .services_calendarBox:hover {
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:white;
+    }
+    .services_calendarBox:hover td {
+      color:black;
+    }
+    .services_calendarBox td{
+      font-size:28px;
+      color:white;
+      margin:auto;
+    }
+  /* END OF CALENAR */
+
+
+  /* SERVICES */
+    .services_linksOuterbox_audit {
+      width:100%;
+      height:350px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_audit h2 {
+      width:350px;
+      height:50px;
+      font-size:33px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_audit p {
+      font-size:25px;
+      width:280px;
+      height:150px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport {
+      width:100%;
+      height:450px;
+      margin-top:200px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_annualReport h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:150px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport p {
+      font-size:25px;
+      width:280px;
+      height:150px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping {
+      width:100%;
+      height:600px;
+      margin-top:550px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+
+    .services_linksOuterbox_bookkeeping h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping p {
+      font-size:25px;
+      width:280px;
+      height:150px;
+      margin-top:-200px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep {
+      width:100%;
+      height:650px;
+      margin-top:450px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:50px;
+      color:white;
+      font-size:34px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_taxPrep h2 {
+      width:1000px;
+      height:50px;
+      font-size:32px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep p {
+      font-size:25px;
+      width:280px;
+      height:150px;
+      margin-top:-200px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+  /* END OF SERVICES LINKS */
+}
+@media only screen and (min-width:414px) {
+  /* WALLPAPER */
+    .services_wallpaper {
+      width:100%;
+      height:350px;
+      background:url(services_wallpaper.jpg);
+      background-size:cover;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_wallpaper h2 {
+      font-size:50px;
+      font-family:Times;
+      font-style: italic;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  /* END OF WALLPAPER */
+
+  /*  INTROTEXT */
+    .services_introtextBox {
+      width:100%;
+      height:500px;
+      background-color:white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_introtextBox p{
+      width:350px;
+      height:250px;
+      margin-left: auto;
+      margin-right:auto;
+      margin-top:50px;
+      color:black;
+      font-size:23px;
+      line-height:30px;
+    }
+  /*  END OF INTROTEXT */
+
+
+  /* CALENDER */
+    .services_calenderHeader {
+      font-size:47px;
+      text-align: center;
+      color:white;
+      margin-top:30px;
+      margin-bottom:50px;
+    }
+    .services_calenderOuterbox {
+      width:350px;
+      height:1056px;
+      margin-left: auto;
+      margin-right:auto;
+      border:3px solid white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_calendarBox {
+      width:350px;
+      height:100px;
+      display:flex;
+      flex-flow:row wrap;
+      border:3px solid white;
+    }
+    .services_calendarBox:hover {
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:white;
+    }
+    .services_calendarBox:hover td {
+      color:black;
+    }
+    .services_calendarBox td{
+      font-size:35px;
+      color:white;
+      margin:auto;
+    }
+  /* END OF CALENAR */
+
+
+  /* SERVICES */
+    .services_linksOuterbox_audit {
+      width:100%;
+      height:400px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_audit h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_audit p {
+      font-size:25px;
+      width:350px;
+      height:150px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport {
+      width:100%;
+      height:450px;
+      margin-top:100px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_annualReport h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:150px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport p {
+      font-size:25px;
+      width:350px;
+      height:150px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping {
+      width:100%;
+      height:600px;
+      margin-top:430px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+
+    .services_linksOuterbox_bookkeeping h2 {
+      width:350px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping p {
+      font-size:25px;
+      width:650px;
+      height:150px;
+      margin-top:-200px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep {
+      width:100%;
+      height:650px;
+      margin-top:150px;
+      margin-bottom:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:50px;
+      color:white;
+      font-size:37px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_taxPrep h2 {
+      width:1000px;
+      height:50px;
+      font-size:35px;
+      margin-left:50px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep p {
+      font-size:25px;
+      width:650px;
+      height:150px;
+      margin-top:-200px;
+      line-height:40px;
+      margin-left:50px;
+      color:white;
+    }
+  /* END OF SERVICES LINKS */
+}
+@media only screen and (min-width:768px) {
+
+    /* WALLPAPER */
+      .services_wallpaper {
+        width:100%;
+        height:500px;
+        background:url(services_wallpaper.jpg);
+        background-size:cover;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_wallpaper h2 {
+        font-size:80px;
+        font-family:Times;
+        font-style: italic;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    /* END OF WALLPAPER */
+
+    /*  INTROTEXT */
+      .services_introtextBox {
+        width:100%;
+        height:300px;
+        background-color:white;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_introtextBox p{
+        width:650px;
+        height:250px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:50px;
+        color:black;
+        font-size:23px;
+        line-height:30px;
+      }
+    /*  END OF INTROTEXT */
+
+
+    /* CALENDER */
+      .services_calenderHeader {
+        font-size:47px;
+        text-align: center;
+        color:white;
+        margin-top:30px;
+        margin-bottom:50px;
+      }
+      .services_calenderOuterbox {
+        width:650px;
+        height:1056px;
+        margin-left: auto;
+        margin-right:auto;
+        border:3px solid white;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_calendarBox {
+        width:650px;
+        height:100px;
+        display:flex;
+        flex-flow:row wrap;
+        border:3px solid white;
+      }
+      .services_calendarBox:hover {
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        background-color:white;
+      }
+      .services_calendarBox:hover td {
+        color:black;
+      }
+      .services_calendarBox td{
+        font-size:35px;
+        color:white;
+        margin:auto;
+      }
+    /* END OF CALENAR */
+
+
+    /* SERVICES */
+      .services_linksOuterbox_audit {
+        width:100%;
+        height:400px;
+        margin-top:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:47px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_audit h2 {
+        width:1000px;
+        height:50px;
+        font-size:45px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_audit p {
+        font-size:25px;
+        width:650px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+      .services_linksOuterbox_annualReport {
+        width:100%;
+        height:450px;
+        margin-top:50px;
+        margin-bottom:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:47px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_annualReport h2 {
+        width:1000px;
+        height:50px;
+        font-size:45px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_annualReport p {
+        font-size:25px;
+        width:650px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+      .services_linksOuterbox_bookkeeping {
+        width:100%;
+        height:600px;
+        margin-top:50px;
+        margin-bottom:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:47px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_bookkeeping h2 {
+        width:1000px;
+        height:50px;
+        font-size:45px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_bookkeeping p {
+        font-size:25px;
+        width:650px;
+        height:150px;
+        margin-top:-100px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+      .services_linksOuterbox_taxPrep {
+        width:100%;
+        height:550px;
+        margin-top:50px;
+        margin-bottom:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:47px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_taxPrep h2 {
+        width:1000px;
+        height:50px;
+        font-size:45px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_taxPrep p {
+        font-size:25px;
+        width:650px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+    /* END OF SERVICES LINKS */
+}
+@media only screen and (min-width:1000px) {
+
+    /* WALLPAPER */
+      .services_wallpaper {
+        width:100%;
+        height:600px;
+        background:url(services_wallpaper.jpg);
+        background-size:cover;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_wallpaper h2 {
+        font-size:80px;
+        font-family:Times;
+        font-style: italic;
+        margin-left:auto;
+        margin-right:auto;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+    /* END OF WALLPAPER */
+
+    /*  INTROTEXT */
+      .services_introtextBox {
+        width:100%;
+        height:250px;
+        background-color:white;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_introtextBox p{
+        width:800px;
+        height:250px;
+        margin-left: auto;
+        margin-right:auto;
+        margin-top:50px;
+        color:black;
+        font-size:23px;
+        line-height:30px;
+      }
+    /*  END OF INTROTEXT */
+
+
+    /* CALENDER */
+      .services_calenderHeader {
+        font-size:60px;
+        text-align: center;
+        color:white;
+        margin-top:30px;
+        margin-bottom:50px;
+      }
+      .services_calenderOuterbox {
+        width:800px;
+        height:1056px;
+        margin-left: auto;
+        margin-right:auto;
+        border:3px solid white;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_calendarBox {
+        width:800px;
+        height:100px;
+        display:flex;
+        flex-flow:row wrap;
+        border:3px solid white;
+      }
+      .services_calendarBox:hover {
+        -webkit-transition: all .2s ease-in-out;
+        -moz-transition: all .2s ease-in-out;
+        -o-transition: all .2s ease-in-out;
+        transition: all .2s ease-in-out;
+        background-color:white;
+      }
+      .services_calendarBox:hover td {
+        color:black;
+      }
+      .services_calendarBox td{
+        font-size:35px;
+        color:white;
+        margin:auto;
+      }
+    /* END OF CALENAR */
+
+
+    /* SERVICES */
+      .services_linksOuterbox_audit {
+        width:100%;
+        height:400px;
+        margin-top:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:60px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_audit h2 {
+        width:1000px;
+        height:50px;
+        font-size:50px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_audit p {
+        font-size:25px;
+        width:800px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+
+
+      .services_linksOuterbox_annualReport {
+        width:100%;
+        height:400px;
+        margin-top:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:60px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_annualReport h2 {
+        width:1000px;
+        height:50px;
+        font-size:50px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_annualReport p {
+        font-size:25px;
+        width:800px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+      .services_linksOuterbox_bookkeeping {
+        width:100%;
+        height:400px;
+        margin-top:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:60px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_bookkeeping h2 {
+        width:1000px;
+        height:50px;
+        font-size:50px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_bookkeeping p {
+        font-size:25px;
+        width:800px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+      .services_linksOuterbox_taxPrep {
+        width:100%;
+        height:550px;
+        margin-top:50px;
+        display:flex;
+        flex-flow:row wrap;
+      }
+      .services_linksOuterbox_header {
+        width:100%;
+        height:50px;
+        color:white;
+        font-size:60px;
+        text-align: center;
+        margin-top:50px;
+      }
+      .services_linksOuterbox_taxPrep h2 {
+        width:1000px;
+        height:50px;
+        font-size:50px;
+        margin-left:100px;
+        margin-top:50px;
+        color:white;
+      }
+      .services_linksOuterbox_taxPrep p {
+        font-size:25px;
+        width:800px;
+        height:150px;
+        line-height:40px;
+        margin-left:100px;
+        color:white;
+      }
+    /* END OF SERVICES LINKS */
+}
+@media only screen and (min-width:1350px) {
+  /* WALLPAPER */
+    .services_wallpaper {
+      width:100%;
+      height:700px;
+      background:url(services_wallpaper.jpg);
+      background-size:cover;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_wallpaper h2 {
+      font-size:100px;
+      font-family:Times;
+      font-style: italic;
+      margin-left:auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom: auto;
+    }
+  /* END OF WALLPAPER */
+
+  /*  INTROTEXT */
+    .services_introtextBox {
+      width:100%;
+      height:250px;
+      background-color:white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_introtextBox p{
+      width:1000px;
+      height:250px;
+      margin-left: auto;
+      margin-right:auto;
+      margin-top:30px;
+      color:black;
+      font-size:23px;
+      line-height:30px;
+    }
+  /*  END OF INTROTEXT */
+
+
+  /* CALENDER */
+    .services_calenderHeader {
+      font-size:70px;
+      text-align: center;
+      color:white;
+      margin-top:30px;
+      margin-bottom:50px;
+    }
+    .services_calenderOuterbox {
+      width:1000px;
+      height:1056px;
+      margin-left: auto;
+      margin-right:auto;
+      border:3px solid white;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_calendarBox {
+      width:1000px;
+      height:100px;
+      display:flex;
+      flex-flow:row wrap;
+      border:3px solid white;
+    }
+    .services_calendarBox:hover {
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:white;
+    }
+    .services_calendarBox:hover td {
+      color:black;
+    }
+    .services_calendarBox td{
+      font-size:35px;
+      color:white;
+      margin:auto;
+    }
+  /* END OF CALENAR */
+
+
+  /* SERVICES */
+    .services_linksOuterbox_audit {
+      width:100%;
+      height:400px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:60px;
+      color:white;
+      font-size:60px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_audit h2 {
+      width:1000px;
+      height:50px;
+      font-size:60px;
+      margin-left:100px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_audit p {
+      font-size:30px;
+      width:1100px;
+      height:150px;
+      line-height:40px;
+      margin-left:100px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport {
+      width:100%;
+      height:400px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:60px;
+      color:white;
+      font-size:60px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_annualReport h2 {
+      width:1000px;
+      height:50px;
+      font-size:60px;
+      margin-left:100px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_annualReport p {
+      font-size:30px;
+      width:1100px;
+      height:150px;
+      line-height:40px;
+      margin-left:100px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping {
+      width:100%;
+      height:400px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:60px;
+      color:white;
+      font-size:60px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_bookkeeping h2 {
+      width:1000px;
+      height:50px;
+      font-size:60px;
+      margin-left:100px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_bookkeeping p {
+      font-size:30px;
+      width:1100px;
+      height:150px;
+      line-height:40px;
+      margin-left:100px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep {
+      width:100%;
+      height:600px;
+      margin-top:50px;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .services_linksOuterbox_header {
+      width:100%;
+      height:60px;
+      color:white;
+      font-size:60px;
+      text-align: center;
+      margin-top:50px;
+    }
+    .services_linksOuterbox_texPrep h2 {
+      width:1000px;
+      height:50px;
+      font-size:60px;
+      margin-left:100px;
+      margin-top:50px;
+      color:white;
+    }
+    .services_linksOuterbox_taxPrep p {
+      font-size:30px;
+      width:1100px;
+      height:150px;
+      line-height:40px;
+      margin-left:100px;
+      color:white;
+    }
+  /* END OF SERVICES LINKS */
+}

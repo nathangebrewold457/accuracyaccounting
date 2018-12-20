@@ -1,0 +1,1051 @@
+/* INTRODUCTION */
+  .introductionOuterbox {
+    display:flex;
+    flex-flow: row wrap;
+    margin-bottom:425px;
+    margin-top:30px;
+  }
+  .introductionOuterbox_slideshowOuterbox {
+    width:100%;
+    height:225px;
+    background-color:gray;
+    margin-left: auto;
+    margin-right:auto;
+    display: flex;
+    flex-flow:row wrap;
+  }
+  .introductionOuterbox_slideshowOuterbox img {
+    width:240px;
+    height:225px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .introductionOuterbox_textOuterbox {
+    height:390px;
+    width:260px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:10px;
+    color:white;
+    font-size:15px;
+    line-height:30px;
+  }
+/* END OF INTRODUCTION */
+
+
+/* CLIENT DISPLAY */
+  .clientdisplayOuterbox {
+    display:flex;
+    flex-flow:row wrap;
+    margin-bottom:30px;
+  }
+  .clientdisplayOuterbox_header {
+    color:white;
+    font-size:20px;
+    margin-right:auto;
+    margin-left:auto;
+  }
+  .clientdisplayOuterbox_flashanimation {
+    width:100%;
+    height:200px;
+    background-color:black;
+    margin-top:30px;
+    color:white;
+  }
+  .surroundContainer {
+    height:100%;
+    overflow:auto;
+    white-space:nowrap;
+    background-color: black;
+  }
+  .hPage1 {
+      height:150px;
+      width:200px;
+      background:url(home_display1.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+  }
+  .hPage2 {
+    height:150px;
+    width:200px;
+    background:url(home_display2.png);
+    background-size:70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  .hPage3 {
+    height:150px;
+    width:200px;
+    background:url(home_display3.png);
+    background-size:70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  .hPage4 {
+    height:150px;
+    width:200px;
+    background:url(home_display4.png);
+    background-size:70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  .hPage5 {
+    height:150px;
+    width:200px;
+    background:url(home_display5.png);
+    background-size:70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  .hPage6 {
+    height:150px;
+    width:200px;
+    background:url(home_display6.png);
+    background-size:70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  .hPage7 {
+    height:150px;
+    width:200px;
+    background:url(home_display7.png);
+    background-size:70%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+  .hPage8 {
+    height:150px;
+    width:200px;
+    background:url(home_display8.png);
+    background-size:45%;
+    background-position:center;
+    background-repeat: no-repeat;
+    display:inline-block;
+  }
+/* END OF CLIENT DISPLAY */
+
+
+/* LINK TO CONTACT */
+  .linktocontactOuterbox {
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .linktocontactOuterbox_header {
+    color:white;
+    font-size:20px;
+    margin-right:auto;
+    margin-left:auto;
+    margin-bottom:30px;
+  }
+  .linktocontactOuterbox_linkOuterbox {
+    width:100%;
+    display:flex;
+    flex-flow:row wrap;
+    margin-bottom:100px;
+  }
+  .linktocontactOuterbox_linkbutton {
+    width:280px;
+    height:30px;
+    border-radius:50px;
+    margin-right:auto;
+    margin-left:auto;
+    background-color:white;
+  }
+  .linktocontactOuterbox_linkbutton a {
+    text-decoration: none;
+    color:black;
+    text-align: center;
+    font-size:14px;
+    line-height:30px;
+  }
+  .linktocontactOuterbox_linkbutton:hover {
+    box-shadow: inset 0 0 0 3px white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .linktocontactOuterbox_linkbutton:hover a {
+    color:white;
+  }
+/* END OF LINK TO CONTACT */
+@media only screen and (min-width:375px) {
+  /* INTRODUCTION */
+    .introductionOuterbox {
+      display:flex;
+      flex-flow: row wrap;
+      margin-bottom:425px;
+      margin-top:30px;
+    }
+    .introductionOuterbox_slideshowOuterbox {
+      width:100%;
+      height:260px;
+      background-color:gray;
+      margin-left: auto;
+      margin-right:auto;
+      display: flex;
+      flex-flow:row wrap;
+    }
+    .introductionOuterbox_slideshowOuterbox img {
+      width:300px;
+      height:260px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .introductionOuterbox_textOuterbox {
+      height:100px;
+      width:325px;
+      margin-left:auto;
+      margin-right:auto;
+      color:white;
+      font-size:16px;
+      line-height:30px;
+      margin-top:15px;
+    }
+  /* END OF INTRODUCTION */
+
+
+  /* CLIENT DISPLAY */
+    .clientdisplayOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:30px;
+    }
+    .clientdisplayOuterbox_header {
+      color:white;
+      font-size:24px;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .clientdisplayOuterbox_flashanimation {
+      width:100%;
+      height:200px;
+      background-color:white;
+      margin-top:30px;
+    }
+    .hPage1 {
+          height:150px;
+          width:200px;
+          background:url(home_display1.png);
+          background-size:70%;
+          background-position:center;
+          background-repeat: no-repeat;
+          display:inline-block;
+    }
+    .hPage2 {
+        height:150px;
+        width:200px;
+        background:url(home_display2.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+    }
+    .hPage3 {
+        height:150px;
+        width:200px;
+        background:url(home_display3.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+      }
+    .hPage4 {
+        height:150px;
+        width:200px;
+        background:url(home_display4.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+      }
+      .hPage5 {
+        height:150px;
+        width:200px;
+        background:url(home_display5.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+      }
+      .hPage6 {
+        height:150px;
+        width:200px;
+        background:url(home_display6.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+      }
+      .hPage7 {
+        height:150px;
+        width:200px;
+        background:url(home_display7.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+      }
+      .hPage8 {
+        height:150px;
+        width:200px;
+        background:url(home_display8.png);
+        background-size:45%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+      }
+    }
+  /* END OF CLIENT DISPLAY */
+
+
+  /* LINK TO CONTACT */
+    .linktocontactOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .linktocontactOuterbox_header {
+      color:white;
+      font-size:24px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom:30px;
+    }
+    .linktocontactOuterbox_linkOuterbox {
+      width:100%;
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:100px;
+    }
+    .linktocontactOuterbox_linkbutton {
+      width:300px;
+      height:30px;
+      border-radius:50px;
+      margin-right:auto;
+      margin-left:auto;
+      background-color:white;
+    }
+    .linktocontactOuterbox_linkbutton a {
+      text-decoration: none;
+      color:black;
+      text-align: center;
+      font-size:14px;
+      line-height:30px;
+    }
+    .linktocontactOuterbox_linkbutton:hover {
+      box-shadow: inset 0 0 0 3px white;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:black;
+    }
+    .linktocontactOuterbox_linkbutton:hover a {
+      color:white;
+    }
+  /* END OF LINK TO CONTACT */
+}
+@media only screen and (min-width:414px) {
+  /* INTRODUCTION */
+    .introductionOuterbox {
+      display:flex;
+      flex-flow: row wrap;
+      margin-bottom:425px;
+      margin-top:30px;
+    }
+    .introductionOuterbox_slideshowOuterbox {
+      width:100%;
+      height:280px;
+      background-color:gray;
+      margin-left: auto;
+      margin-right:auto;
+      display: flex;
+      flex-flow:row wrap;
+    }
+    .introductionOuterbox_slideshowOuterbox img {
+      width:310px;
+      height:280px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .introductionOuterbox_textOuterbox {
+      height:300px;
+      width:325px;
+      margin-left:auto;
+      margin-right:auto;
+      color:white;
+      font-size:16px;
+      line-height:30px;
+    }
+  /* END OF INTRODUCTION */
+
+
+  /* CLIENT DISPLAY */
+    .clientdisplayOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:30px;
+    }
+    .clientdisplayOuterbox_header {
+      color:white;
+      font-size:25px;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .clientdisplayOuterbox_flashanimation {
+      width:100%;
+      height:200px;
+      background-color:white;
+      margin-top:30px;
+    }
+    .hPage1 {
+        height:150px;
+        width:200px;
+        background:url(home_display1.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+    }
+    .hPage2 {
+      height:150px;
+      width:200px;
+      background:url(home_display2.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage3 {
+      height:150px;
+      width:200px;
+      background:url(home_display3.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage4 {
+      height:150px;
+      width:200px;
+      background:url(home_display4.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage5 {
+      height:150px;
+      width:200px;
+      background:url(home_display5.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage6 {
+      height:150px;
+      width:200px;
+      background:url(home_display6.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage7 {
+      height:150px;
+      width:200px;
+      background:url(home_display7.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage8 {
+      height:150px;
+      width:200px;
+      background:url(home_display8.png);
+      background-size:45%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+  /* END OF CLIENT DISPLAY */
+
+
+  /* LINK TO CONTACT */
+    .linktocontactOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .linktocontactOuterbox_header {
+      color:white;
+      font-size:25px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom:30px;
+    }
+    .linktocontactOuterbox_linkOuterbox {
+      width:100%;
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:100px;
+    }
+    .linktocontactOuterbox_linkbutton {
+      width:310px;
+      height:40px;
+      border-radius:50px;
+      margin-right:auto;
+      margin-left:auto;
+      background-color:white;
+    }
+    .linktocontactOuterbox_linkbutton a {
+      text-decoration: none;
+      color:black;
+      text-align: center;
+      font-size:17px;
+      line-height:40px;
+    }
+    .linktocontactOuterbox_linkbutton:hover {
+      box-shadow: inset 0 0 0 3px white;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:black;
+    }
+    .linktocontactOuterbox_linkbutton:hover a {
+      color:white;
+    }
+  /* END OF LINK TO CONTACT */
+}
+@media only screen and (min-width:768px) {
+  /* INTRODUCTION */
+    .introductionOuterbox {
+      display:flex;
+      flex-flow: row wrap;
+      margin-bottom:50px;
+      margin-top:20px;
+    }
+    .introductionOuterbox_slideshowOuterbox {
+      width:100%;
+      height:375px;
+      background-color:gray;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .introductionOuterbox_slideshowOuterbox img{
+      width:500px;
+      height:375px;
+      margin-left:auto;
+      margin-right: auto;
+    }
+    .introductionOuterbox_textOuterbox {
+      width:600px;
+      height:250px;
+      margin-left: auto;
+      margin-right:auto;
+      color:white;
+      font-size:18px;
+      line-height:30px;
+      margin-top:20px;
+    }
+  /* END OF INTRODUCTION */
+
+
+  /* CLIENT DISPLAY */
+    .clientdisplayOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:50px;
+    }
+    .clientdisplayOuterbox_header {
+      color:white;
+      font-size:42px;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .clientdisplayOuterbox_flashanimation {
+      width:100%;
+      height:300px;
+      background-color:white;
+      margin-top:30px;
+    }
+    .hPage1 {
+        height:300px;
+        width:400px;
+        background:url(home_display1.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+    }
+    .hPage2 {
+      height:300px;
+      width:400px;
+      background:url(home_display2.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage3 {
+      height:300px;
+      width:400px;
+      background:url(home_display3.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage4 {
+      height:300px;
+      width:400px;
+      background:url(home_display4.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage5 {
+      height:300px;
+      width:400px;
+      background:url(home_display5.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage6 {
+      height:300px;
+      width:400px;
+      background:url(home_display6.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage7 {
+      height:300px;
+      width:400px;
+      background:url(home_display7.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage8 {
+      height:300px;
+      width:400px;
+      background:url(home_display8.png);
+      background-size:45%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+  /* END OF CLIENT DISPLAY */
+
+
+  /* LINK TO CONTACT */
+    .linktocontactOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .linktocontactOuterbox_header {
+      color:white;
+      font-size:42px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom:50px;
+    }
+    .linktocontactOuterbox_linkOuterbox {
+      width:100%;
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:100px;
+    }
+    .linktocontactOuterbox_linkbutton {
+      width:650px;
+      height:75px;
+      border-radius:50px;
+      margin-right:auto;
+      margin-left:auto;
+      background-color:white;
+    }
+    .linktocontactOuterbox_linkbutton a {
+      text-decoration: none;
+      color:black;
+      text-align: center;
+      font-size:27px;
+      line-height:75px;
+    }
+    .linktocontactOuterbox_linkbutton:hover {
+      box-shadow: inset 0 0 0 3px white;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:black;
+    }
+    .linktocontactOuterbox_linkbutton:hover a {
+      color:white;
+    }
+  /* END OF LINK TO CONTACT */
+}
+@media only screen and (min-width:1000px) {
+  /* INTRODUCTION */
+    .introductionOuterbox {
+      display:flex;
+      flex-flow: row wrap;
+      margin-top:50px;
+      margin-bottom:-100px;
+    }
+    .introductionOuterbox_slideshowOuterbox {
+      width:100%;
+      height:500px;
+      margin-left: 0px;
+      background-color:gray;
+      display: flex;
+      flex-flow: row wrap;
+    }
+    .introductionOuterbox_slideshowOuterbox img {
+      width:700px;
+      height:500px;
+      margin-left:auto;
+      margin-right:auto;
+    }
+    .introductionOuterbox_textOuterbox {
+      width:850px;
+      height:350px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:20px;
+      color:white;
+      font-size:21px;
+      line-height:30px;
+    }
+  /* END OF INTRODUCTION */
+
+
+  /* CLIENT DISPLAY */
+    .clientdisplayOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:50px;
+    }
+    .clientdisplayOuterbox_header {
+      color:white;
+      font-size:45px;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .clientdisplayOuterbox_flashanimation {
+      width:100%;
+      height:300px;
+      background-color:white;
+      margin-top:30px;
+    }
+    .hPage1 {
+        height:300px;
+        width:400px;
+        background:url(home_display1.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+    }
+    .hPage2 {
+      height:300px;
+      width:400px;
+      background:url(home_display2.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage3 {
+      height:300px;
+      width:400px;
+      background:url(home_display3.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage4 {
+      height:300px;
+      width:400px;
+      background:url(home_display4.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage5 {
+      height:300px;
+      width:400px;
+      background:url(home_display5.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage6 {
+      height:300px;
+      width:400px;
+      background:url(home_display6.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage7 {
+      height:300px;
+      width:400px;
+      background:url(home_display7.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage8 {
+      height:300px;
+      width:400px;
+      background:url(home_display8.png);
+      background-size:45%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+  /* END OF CLIENT DISPLAY */
+
+
+  /* LINK TO CONTACT */
+    .linktocontactOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .linktocontactOuterbox_header {
+      color:white;
+      font-size:45px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom:50px;
+    }
+    .linktocontactOuterbox_linkOuterbox {
+      width:100%;
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:100px;
+    }
+    .linktocontactOuterbox_linkbutton {
+      width:700px;
+      height:75px;
+      border-radius:50px;
+      margin-right:auto;
+      margin-left:auto;
+      background-color:white;
+    }
+    .linktocontactOuterbox_linkbutton a {
+      text-decoration: none;
+      color:black;
+      text-align: center;
+      font-size:30px;
+      line-height:75px;
+    }
+    .linktocontactOuterbox_linkbutton:hover {
+      box-shadow: inset 0 0 0 3px white;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:black;
+    }
+    .linktocontactOuterbox_linkbutton:hover a {
+      color:white;
+    }
+  /* END OF LINK TO CONTACT */
+}
+@media only screen and (min-width:1350px) {
+  /* INTRODUCTION */
+    .introductionOuterbox {
+      width:100%;
+      margin-bottom:-100px;
+      display:flex;
+      flex-flow: row wrap;
+    }
+    .introductionOuterbox_slideshowOuterbox {
+      width:100%;
+      height:700px;
+      background-color:gray;
+      margin-left:0px;
+      display: flex;
+      flex-flow:row wrap;
+    }
+    .introductionOuterbox_slideshowOuterbox img {
+      width:1100px;
+      height:700px;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .introductionOuterbox_textOuterbox {
+      width:1200px;
+      height:400px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:50px;
+      color:white;
+      font-size:22px;
+      line-height:40px;
+    }
+  /* END OF INTRODUCTION */
+
+
+  /* CLIENT DISPLAY */
+    .clientdisplayOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:50px;
+    }
+    .clientdisplayOuterbox_header {
+      color:white;
+      font-size:50px;
+      margin-right:auto;
+      margin-left:auto;
+    }
+    .clientdisplayOuterbox_flashanimation {
+      width:100%;
+      height:335px;
+      background-color:white;
+      margin-top:30px;
+    }
+    .hPage1 {
+        height:300px;
+        width:400px;
+        background:url(home_display1.png);
+        background-size:70%;
+        background-position:center;
+        background-repeat: no-repeat;
+        display:inline-block;
+    }
+    .hPage2 {
+      height:300px;
+      width:400px;
+      background:url(home_display2.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage3 {
+      height:300px;
+      width:400px;
+      background:url(home_display3.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage4 {
+      height:300px;
+      width:400px;
+      background:url(home_display4.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage5 {
+      height:300px;
+      width:400px;
+      background:url(home_display5.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage6 {
+      height:300px;
+      width:400px;
+      background:url(home_display6.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage7 {
+      height:300px;
+      width:400px;
+      background:url(home_display7.png);
+      background-size:70%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+    .hPage8 {
+      height:300px;
+      width:400px;
+      background:url(home_display8.png);
+      background-size:45%;
+      background-position:center;
+      background-repeat: no-repeat;
+      display:inline-block;
+    }
+  /* END OF CLIENT DISPLAY */
+
+
+  /* LINK TO CONTACT */
+    .linktocontactOuterbox {
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .linktocontactOuterbox_header {
+      color:white;
+      font-size:50px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-bottom:50px;
+    }
+    .linktocontactOuterbox_linkOuterbox {
+      width:100%;
+      display:flex;
+      flex-flow:row wrap;
+      margin-bottom:100px;
+    }
+    .linktocontactOuterbox_linkbutton {
+      width:700px;
+      height:75px;
+      border-radius:50px;
+      margin-right:auto;
+      margin-left:auto;
+      background-color:white;
+    }
+    .linktocontactOuterbox_linkbutton a {
+      text-decoration: none;
+      color:black;
+      text-align: center;
+      font-size:30px;
+      line-height:75px;
+    }
+    .linktocontactOuterbox_linkbutton:hover {
+      box-shadow: inset 0 0 0 3px white;
+      -webkit-transition: all .2s ease-in-out;
+      -moz-transition: all .2s ease-in-out;
+      -o-transition: all .2s ease-in-out;
+      transition: all .2s ease-in-out;
+      background-color:black;
+    }
+    .linktocontactOuterbox_linkbutton:hover a {
+      color:white;
+    }
+  /* END OF LINK TO CONTACT */
+}

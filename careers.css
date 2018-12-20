@@ -1,0 +1,516 @@
+/* WALLPAPER */
+.careers_wallpaper {
+  width:100%;
+  height:280px;
+  background:url(career_wallpaper.jpg);
+  background-size:cover;
+  display:flex;
+  flex-flow:row wrap;
+}
+.careers_wallpaper h2{
+  font-size:50px;
+  margin:auto;
+  font-style: italic;
+  font-family:Times;
+}
+/* END OF WALLPAPER */
+
+
+/*  INTROTEXT & JOB CATEGORY*/
+.careers_introtextOuterbox {
+  width:100%;
+  height:1600px;
+  display:flex;
+  flex-flow:row wrap;
+  background-color:white;
+}
+.careers_introtextOuterbox h2{
+  width:1100px;
+  height:30px;
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:30px;
+  font-size:24px;
+  color:black;
+}
+.careers_introtextOuterbox p {
+  width:270px;
+  height:900px;
+  line-height:33px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+  color:black;
+}
+.careers_jobcategoryOuterbox {
+  width:280px;
+  height:550px;
+  display:flex;
+  flex-flow:row wrap;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom:50px;
+}
+.careers_jobcategoryOuterbox_innerbox {
+  width:280px;
+  height:70px;
+  margin:auto;
+  background-color:rgb(226,226,226);
+  display:flex;
+  flex-flow:row wrap;
+  text-decoration: none;
+}
+.careers_jobcategoryOuterbox_innerbox:hover {
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color:black;
+}
+.careers_jobcategoryOuterbox_innerbox:hover h2{
+  color:white;
+}
+.careers_jobcategoryOuterbox_innerbox h2 {
+  width:100%;
+  padding:auto;
+  font-size:23px;
+  font-weight:normal;
+  color:black;
+  text-decoration:none;
+  margin:auto;
+}
+/*  END OF INTROTEXT & JOB CATEGORY*/
+@media only screen and (min-width:375px) {
+  /* WALLPAPER */
+  .careers_wallpaper {
+    width:100%;
+    height:280px;
+    background:url(career_wallpaper.jpg);
+    background-size:cover;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .careers_wallpaper h2{
+    font-size:60px;
+    margin:auto;
+    font-style: italic;
+    font-family:Times;
+  }
+  /* END OF WALLPAPER */
+
+
+  /*  INTROTEXT & JOB CATEGORY*/
+  .careers_introtextOuterbox {
+    width:100%;
+    height:1500px;
+    display:flex;
+    flex-flow:row wrap;
+    background-color:white;
+  }
+  .careers_introtextOuterbox h2{
+    width:1100px;
+    height:40px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    font-size:27px;
+    color:black;
+  }
+  .careers_introtextOuterbox p {
+    width:300px;
+    height:700px;
+    line-height:33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 20px;
+    color:black;
+  }
+  .careers_jobcategoryOuterbox {
+    width:280px;
+    height:475px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom:50px;
+  }
+  .careers_jobcategoryOuterbox_innerbox {
+    width:280px;
+    height:70px;
+    margin:auto;
+    background-color:rgb(226,226,226);
+    display:flex;
+    flex-flow:row wrap;
+    text-decoration: none;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover h2{
+    color:white;
+  }
+  .careers_jobcategoryOuterbox_innerbox h2 {
+    width:100%;
+    padding:auto;
+    font-size:23px;
+    font-weight:normal;
+    color:black;
+    text-decoration:none;
+    margin:auto;
+  }
+  /*  END OF INTROTEXT & JOB CATEGORY*/
+}
+@media only screen and (min-width:414px) {
+  /* WALLPAPER */
+  .careers_wallpaper {
+    width:100%;
+    height:300px;
+    background:url(career_wallpaper.jpg);
+    background-size:cover;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .careers_wallpaper h2{
+    font-size:70px;
+    margin:auto;
+    font-style: italic;
+    font-family:Times;
+  }
+  /* END OF WALLPAPER */
+
+
+  /*  INTROTEXT & JOB CATEGORY*/
+  .careers_introtextOuterbox {
+    width:100%;
+    height:1450px;
+    display:flex;
+    flex-flow:row wrap;
+    background-color:white;
+  }
+  .careers_introtextOuterbox h2{
+    width:1100px;
+    height:40px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    font-size:30px;
+    color:black;
+  }
+  .careers_introtextOuterbox p {
+    width:350px;
+    height:600px;
+    line-height:33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 20px;
+    color:black;
+  }
+  .careers_jobcategoryOuterbox {
+    width:300px;
+    height:600px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom:50px;
+  }
+  .careers_jobcategoryOuterbox_innerbox {
+    width:300px;
+    height:70px;
+    margin:auto;
+    background-color:rgb(226,226,226);
+    display:flex;
+    flex-flow:row wrap;
+    text-decoration: none;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover h2{
+    color:white;
+  }
+  .careers_jobcategoryOuterbox_innerbox h2 {
+    width:100%;
+    padding:auto;
+    font-size:23px;
+    font-weight:normal;
+    color:black;
+    text-decoration:none;
+    margin:auto;
+  }
+  /*  END OF INTROTEXT & JOB CATEGORY*/
+}
+@media only screen and (min-width:768px) {
+  /* WALLPAPER */
+  .careers_wallpaper {
+    width:100%;
+    height:500px;
+    background:url(career_wallpaper.jpg);
+    background-size:cover;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .careers_wallpaper h2{
+    font-size:90px;
+    margin:auto;
+    font-style: italic;
+    font-family:Times;
+  }
+  /* END OF WALLPAPER */
+
+
+  /*  INTROTEXT & JOB CATEGORY*/
+  .careers_introtextOuterbox {
+    width:100%;
+    height:900px;
+    display:flex;
+    flex-flow:row wrap;
+    background-color:white;
+  }
+  .careers_introtextOuterbox h2{
+    width:1100px;
+    height:40px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    font-size:37px;
+    color:black;
+  }
+  .careers_introtextOuterbox p {
+    width:550px;
+    height:450px;
+    line-height:33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    font-size: 20px;
+    color:black;
+  }
+  .careers_jobcategoryOuterbox {
+    width:650px;
+    height:250px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left: auto;
+    margin-bottom:50px;
+  }
+  .careers_jobcategoryOuterbox_innerbox {
+    width:300px;
+    height:70px;
+    margin:auto;
+    background-color:rgb(226,226,226);
+    display:flex;
+    flex-flow:row wrap;
+    text-decoration: none;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover h2{
+    color:white;
+  }
+  .careers_jobcategoryOuterbox_innerbox h2 {
+    width:100%;
+    padding:auto;
+    font-size:23px;
+    font-weight:normal;
+    color:black;
+    text-decoration:none;
+    margin:auto;
+  }
+  /*  END OF INTROTEXT & JOB CATEGORY*/
+}
+@media only screen and (min-width:1000px){
+  /* WALLPAPER */
+  .careers_wallpaper {
+    width:100%;
+    height:700px;
+    background:url(career_wallpaper.jpg);
+    background-size:cover;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .careers_wallpaper h2{
+    font-size:100px;
+    margin:auto;
+    font-style: italic;
+    font-family:Times;
+  }
+  /* END OF WALLPAPER */
+
+
+  /*  INTROTEXT & JOB CATEGORY*/
+  .careers_introtextOuterbox {
+    width:100%;
+    height:800px;
+    display:flex;
+    flex-flow:row wrap;
+    background-color:white;
+  }
+  .careers_introtextOuterbox h2{
+    width:1100px;
+    height:40px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    font-size:40px;
+    color:black;
+  }
+  .careers_introtextOuterbox p {
+    width:800px;
+    height:250px;
+    line-height:33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    color:black;
+  }
+  .careers_jobcategoryOuterbox {
+    width:650px;
+    height:250px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left: auto;
+  }
+  .careers_jobcategoryOuterbox_innerbox {
+    width:300px;
+    height:70px;
+    margin:auto;
+    background-color:rgb(226,226,226);
+    display:flex;
+    flex-flow:row wrap;
+    text-decoration: none;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover h2{
+    color:white;
+  }
+  .careers_jobcategoryOuterbox_innerbox h2 {
+    width:100%;
+    padding:auto;
+    font-size:23px;
+    font-weight:normal;
+    color:black;
+    text-decoration:none;
+    margin:auto;
+  }
+  /*  END OF INTROTEXT & JOB CATEGORY*/
+}
+@media only screen and (min-width:1350px){
+  /* WALLPAPER */
+  .careers_wallpaper {
+    width:100%;
+    height:700px;
+    background:url(career_wallpaper.jpg);
+    background-size:cover;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .careers_wallpaper h2{
+    font-size:100px;
+    margin:auto;
+    font-style: italic;
+    font-family:Times;
+  }
+  /* END OF WALLPAPER */
+
+
+  /*  INTROTEXT & JOB CATEGORY*/
+  .careers_introtextOuterbox {
+    width:100%;
+    height:800px;
+    display:flex;
+    flex-flow:row wrap;
+    background-color:white;
+  }
+  .careers_introtextOuterbox h2{
+    width:1100px;
+    height:40px;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:70px;
+    font-size:40px;
+    color:black;
+  }
+  .careers_introtextOuterbox p {
+    width:1100px;
+    height:250px;
+    line-height:33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+    color:black;
+  }
+  .careers_jobcategoryOuterbox {
+    width:1050px;
+    height:250px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left: auto;
+  }
+  .careers_jobcategoryOuterbox_innerbox {
+    width:500px;
+    height:100px;
+    margin:auto;
+    background-color:rgb(226,226,226);
+    display:flex;
+    flex-flow:row wrap;
+    text-decoration: none;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover {
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .careers_jobcategoryOuterbox_innerbox:hover h2{
+    color:white;
+  }
+  .careers_jobcategoryOuterbox_innerbox h2 {
+    width:100%;
+    margin:auto;
+    font-size:25px;
+    font-weight:normal;
+    color:black;
+    text-decoration:none;
+    margin:auto;
+  }
+  /*  END OF INTROTEXT & JOB CATEGORY*/
+}

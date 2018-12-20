@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Accuracy | Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="shortcut icon" type = "image/png" href = "favicon.png">
+  </head>
+  <body>
+    <!-- WEBSITE CONTENT -->
+    <div class="container">
+      <div class="main">
+        <!-- NAVIGATION -->
+          <nav class = "navigationBox">
+              <a href="index.html"><section class = "navigationBox_logo"></section></a>
+              <section class = "navigationBox_linkbox1">
+                <a href="index.html"><h2>HOME</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox2">
+                <a href="aboutus.html"><h2>ABOUT US</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox3">
+                <a href="services.html"><h2>SERVICES</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox4">
+                <a href="contact.html"><h2>CONTACT US</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox5">
+                <a href="careers.html"><h2>CAREERS</h2></a>
+              </section>
+
+              <!-- PHONE DROPDOWN MENU -->
+              <div class="dropdown">
+                <button class="dropbtn"></button>
+                <div class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="aboutus.html">About Us</a>
+                  <a href="services.html">Services</a>
+                  <a href="contact.html">Contact Us</a>
+                  <a href="careers.html">Careers</a>
+                </div>
+              </div>
+              <!-- END OF DROPDOWN MENU -->
+            </nav>
+        <!-- END OF NAVIGATION -->
+
+
+        <!-- INTRODUCTION -->
+          <section class = "introductionOuterbox">
+            <section class = "introductionOuterbox_slideshowOuterbox">
+              <img src="../Images/img1.jpg" name = "slide">
+            </section>
+            <p  class = "introductionOuterbox_textOuterbox">Here at Accuracy, we strive to make our accounting services stress and hassle free to as much clients as possible. We take a meticulous approach to accounting in order to help our clients manage their personal or business finances easily and more efficiently.When you decide for us to manage your accounting, we have certified professionals that will make your company successful. Whether it is through annual reports, tax preparations, auditing, or bookkeeping, Accuracy will get the job done in a short time span.</p>
+          </section>
+        <!-- END OF INTRODUCTION -->
+
+
+        <!-- CLIENT DISPLAY -->
+          <section class = "clientdisplayOuterbox">
+            <h2 class = "clientdisplayOuterbox_header">CLIENTS WE'VE WORKED WITH</h2>
+            <section class = "clientdisplayOuterbox_flashanimation">
+              <section class = "surroundContainer">
+                <section class = "hPage1"></section>
+                <section class = "hPage2"></section>
+                <section class = "hPage3"></section>
+                <section class = "hPage4"></section>
+                <section class = "hPage5"></section>
+                <section class = "hPage6"></section>
+                <section class = "hPage7"></section>
+                <section class = "hPage8"></section>
+              </section>
+
+            </section>
+
+          </section>
+        <!-- END OF CLIENT DISPLAY -->
+
+
+        <!-- LINK TO CONTACT -->
+          <section class = "linktocontactOuterbox">
+              <h2 class = "linktocontactOuterbox_header">WORK WITH US</h2>
+              <section class = "linktocontactOuterbox_linkOuterbox">
+                <section class = "linktocontactOuterbox_linkbutton">
+                  <a href="contact.html"><h2>CLICK HERE FOR US TO HELP YOU</h2></a>
+                </section>
+              </section>
+          </section>
+        <!-- END OF LINK TO CONTACT -->
+      </div>
+    </div>
+    <!-- END OF WEBSITE CONTENT -->
+
+
+    <!-- FOOTER -->
+    <footer class = "footer">
+      <section class "footer_homeColumn1">
+        <a href="index.html"><p>HOME</p></a>
+      </section>
+      <section class "footer_homeColumn2">
+        <a href="aboutus.html"><p>ABOUT US</p></a>
+        <p>HISTORY</p>
+        <p>LOCATIONS</p>
+        <p>FAQ</p>
+      </section>
+      <section class "footer_homeColumn3">
+        <a href="services.html"><p>SERVICES</p></a>
+        <p>CALENDAR</p>
+        <p>AUDITING</p>
+        <p>ANNUAL REPORTS</p>
+        <p>BOOKKEEPING</p>
+        <p>TAX PREPARATIONS</p>
+      </section>
+      <section class "footer_homeColumn4">
+        <a href="contact.html"><p>CONTACT US</p></a>
+      </section>
+      <section class "footer_homeColumn5">
+        <a href="index.html"><p>CAREERS</p></a>
+        <p>ADVISORY</p>
+        <p>AUDIT</p>
+        <p>TAX</p>
+        <p>BUSINESS SUPPORT SERVICES</p>
+        <p>JOB APPLICATION</p>
+      </section>
+    </footer>
+    <!-- END OF FOOTER -->
+  </body>
+
+
+  <!-- JAVASCRIPT SLIDESHOW -->
+    <script>
+      var image1 = new Image()
+      image1.src="../Images/Home/homeSlide1.png"
+      var image2 = new Image()
+      image2.src="../Images/Home/homeSlide2.png"
+      var image3 = new Image()
+      image3.src="../Images/Home/homeSlide3.png"
+      var step = 1
+      function slideit() {
+        document.images.slide.src=eval("image" + step + ".src")
+        if(step < 3)
+        step++
+        else
+        step = 1
+        setTimeout("slideit()",2500)
+      }
+      slideit()
+    </script>
+  <!-- END OF JAVASCRIPT SLIDESHOW -->
+
+</html>

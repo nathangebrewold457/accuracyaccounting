@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Accuracy | Job Application Careers</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="careers_jobapplication.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel ="shortcut icon" type = "image/png" href = "favicon.png">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <!-- NAVIGATION -->
+          <nav class = "navigationBox">
+              <a href="index.html"><section class = "navigationBox_logo"></section></a>
+              <section class = "navigationBox_linkbox1">
+                <a href="index.html"><h2>HOME</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox2">
+                <a href="aboutus.html"><h2>ABOUT US</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox3">
+                <a href="services.html"><h2>SERVICES</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox4">
+                <a href="contact.html"><h2>CONTACT US</h2></a>
+              </section>
+              <section class = "navigationBox_linkbox5">
+                <a href="careers.html"><h2>CAREERS</h2></a>
+              </section>
+
+              <!-- PHONE DROPDOWN MENU -->
+              <div class="dropdown">
+                <button class="dropbtn"></button>
+                <div class="dropdown-content">
+                  <a href="index.html">Home</a>
+                  <a href="aboutus.html">About Us</a>
+                  <a href="services.html">Services</a>
+                  <a href="contact.html">Contact Us</a>
+                  <a href="careers.html">Careers</a>
+                </div>
+              </div>
+              <!-- END OF DROPDOWN MENU -->
+          </nav>
+        <!-- END OF NAVIGATION -->
+
+
+        <!-- JOB APPLICATION FORM -->
+          <h2 class = "careers_jobapp_header">Employment Application Form</h2>
+          <form class="careers_jobapp_formbox" action="MAILTO:nathangebrewold457@gmail.com"   method="post" enctype="text/plain">
+            <input class = "careers_jobapp_formbox_text" type="text" name="firstname" placeholder="First name">
+            <input class = "careers_jobapp_formbox_text"  type="text" name="lastname" placeholder="Last name">
+            <input class = "careers_jobapp_formbox_text"  type="email" name="email" placeholder="Email">
+            <input class = "careers_jobapp_formbox_text"  type="text" name="job" placeholder="Position you're applying for">
+            <input class = "careers_jobapp_formbox_text"  type="text" name="startdate" placeholder="When Can You Start (Month/Day/Year)">
+            <input class = "careers_jobapp_formbox_text"  type="text" name="phonenumber" placeholder="Phone">
+            <h2 class = "careers_jobapp_formbox_questionHeader">Will you be willing to relocate?</h2>
+            <section class = "careers_jobapp_formbox_relocatebutton">
+              Yes<input type="radio" name="relocate" value="Yes" checked>
+              No<input type="radio" name="relocate" value="No">
+              Not Sure<input type="radio" name="relocate" value="Not Sure">
+            </section>
+            <input class = "careers_jobapp_formbox_text"  type="text" name="lastcompany" placeholder="Last company you worked for">
+            <textarea name="comments/questions" class = "careers_jobapp_formbox_text2" placeholder="Comments/Questions"></textarea>
+            <button type="submit" name="submit" class = "careers_jobapp_formbox_submitbutton">Submit Job Application</button>
+          </form>
+        <!-- END OF JOB APPLICATION FORM -->
+
+
+
+      </div>
+    </div>
+
+    <!-- FOOTER -->
+    <footer class = "footer">
+      <section class "footer_homeColumn1">
+        <a href="index.html"><p>HOME</p></a>
+      </section>
+      <section class "footer_homeColumn2">
+        <a href="aboutus.html"><p>ABOUT US</p></a>
+        <p>HISTORY</p>
+        <p>LOCATIONS</p>
+        <p>FAQ</p>
+      </section>
+      <section class "footer_homeColumn3">
+        <a href="services.html"><p>SERVICES</p></a>
+        <p>CALENDAR</p>
+        <p>AUDITING</p>
+        <p>ANNUAL REPORTS</p>
+        <p>BOOKKEEPING</p>
+        <p>TAX PREPARATIONS</p>
+      </section>
+      <section class "footer_homeColumn4">
+        <a href="contact.html"><p>CONTACT US</p></a>
+      </section>
+      <section class "footer_homeColumn5">
+        <a href="index.html"><p>CAREERS</p></a>
+        <p>ADVISORY</p>
+        <p>AUDIT</p>
+        <p>TAX</p>
+        <p>BUSINESS SUPPORT SERVICES</p>
+        <p>JOB APPLICATION</p>
+      </section>
+    </footer>
+    <!-- END OF FOOTER -->
+  </body>
+</html>

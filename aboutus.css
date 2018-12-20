@@ -1,0 +1,1513 @@
+/* MISSION STATEMENT */
+  .MSbox {
+    width:100%;
+    height:400px;
+    background:url(MSwallpaper.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    display: flex;
+  }
+  .MSbox p {
+    width:325px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:100px;
+    font-size:30px;
+    text-align: center;
+    color:white;
+    font-style: italic;
+  }
+/* END OF MISSION STATEMENT */
+
+
+/* QUICK FACTS/INTRO */
+  .QFIouterbox {
+    display:none;
+  }
+  .QFIouterbox_QFouterbox {
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_title {
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_title p{
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_box {
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_box h2{
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_box p{
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_boxend {
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_boxend h2{
+    display:none;
+  }
+  .QFIouterbox_QFouterbox_boxend p{
+    display:none;
+  }
+  .Iouterbox {
+    display:none;
+  }
+  .Iouterbox h2{
+    display:none;
+  }
+  .Iouterbox p{
+    display:none;
+  }
+
+  .phone_QFIouterbox {
+    width:100%;
+    height:550px;
+    background-color:black;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .phone_QFIinnerbox {
+    width:225px;
+    height:450px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left:auto;
+    margin-top:auto;
+    margin-bottom:auto;
+    background-color:rgb(174,174,174);
+  }
+  .phone_QFIheaderbox {
+    width:180px;
+    height:150px;
+    display:flex;
+    flex-flow:row wrap;
+    border-bottom: 1px dashed black;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .phone_QFIheaderbox h2 {
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: auto;
+    margin-bottom:auto;
+    line-height:50px;
+    color:black;
+    font-size:40px;
+  }
+  .phone_QFIfactbox {
+    width:180px;
+    height:100px;
+    display:flex;
+    flex-flow:row wrap;
+    margin-right:auto;
+    margin-left:auto;
+    border-bottom: 1px dashed black;
+  }
+  .phone_QFIfactbox h2{
+    width:100%;
+    height:25px;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align: center;
+    font-size:22px;
+  }
+  .phone_QFIfactbox p {
+    width:100%;
+    height:25px;
+    margin-top:auto;
+    margin-bottom:auto;
+    text-align: center;
+    font-size:20px;
+  }
+/* END OF QUICK FACTS/INTRO */
+
+
+/* LOCATIONS */
+.locationsOuterbox {
+  width:100%;
+  height:1000px;
+  background-color:white;
+  display: flex;
+  flex-flow: row wrap;
+}
+.locationsOuterbox h2 {
+  width:100%;
+  height:60px;
+  margin-top: 10px;
+  text-align: center;
+  font-size:50px;
+}
+.locationsOuterbox_box {
+  width:100%;
+  height:900px;
+  display:flex;
+  flex-flow:row wrap;
+}
+.locationsOuterbox_boxcir1 {
+  width:100%;
+  height:300px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.locationsOuterbox_boxcir1 h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-size:25px;
+}
+.locationsOuterbox_circle1 {
+  width:200px;
+  height:200px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:100px;
+  background:url(chicago.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.locationsOuterbox_boxcir2 {
+  width:100%;
+  height:300px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.locationsOuterbox_boxcir2 h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-size:25px;
+}
+.locationsOuterbox_circle2 {
+  width:200px;
+  height:200px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:100px;
+  background:url(newyorkcity.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.locationsOuterbox_boxcir3 {
+  width:100%;
+  height:300px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.locationsOuterbox_boxcir3 h2{
+  margin-left: auto;
+  margin-right: auto;
+  font-size:25px;
+}
+.locationsOuterbox_circle3 {
+  width:200px;
+  height:200px;
+  margin-right:auto;
+  margin-left:auto;
+  border-radius:100px;
+  background:url(losangeles.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* END OF LOCATIONS */
+
+
+/* LINK TO FAQ */
+.FAQlinkOuterbox {
+  width:100%;
+  height:400px;
+  margin-top:30px;
+}
+.FAQlinkOuterbox h2{
+  color:white;
+  font-size:37px;
+  text-align: center;
+}
+.FAQlinkbox {
+  width:275px;
+  height:50px;
+  background-color:white;
+  border-radius:50px;
+  margin-top:100px;
+  margin-left:auto;
+  margin-right:auto;
+}
+.FAQlinkbox a {
+  text-decoration: none;
+}
+.FAQlinkbox h2 {
+ font-size:18px;
+ color:black;
+ line-height:50px;
+}
+.FAQlinkbox:hover {
+  box-shadow: inset 0 0 0 3px white;
+  -webkit-transition: all .2s ease-in-out;
+  -moz-transition: all .2s ease-in-out;
+  -o-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
+  background-color:black;
+}
+.FAQlinkbox:hover h2 {
+ color:white;
+}
+/* END OF LINK TO FAQ */
+@media only screen and (min-width:375px) {
+  /* MISSION STATEMENT */
+    .MSbox {
+      width:100%;
+      height:400px;
+      background:url(MSwallpaper.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      display: flex;
+    }
+    .MSbox p {
+      width:350px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:100px;
+      font-size:35px;
+      text-align: center;
+      color:white;
+      font-style: italic;
+    }
+  /* END OF MISSION STATEMENT */
+
+
+  /* QUICK FACTS/INTRO */
+    .QFIouterbox {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_title {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_title p{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_box {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_box h2{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_box p{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_boxend {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_boxend h2{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_boxend p{
+      display:none;
+    }
+    .Iouterbox {
+      display:none;
+    }
+    .Iouterbox h2{
+      display:none;
+    }
+    .Iouterbox p{
+      display:none;
+    }
+
+    .phone_QFIouterbox {
+      width:100%;
+      height:550px;
+      background-color:black;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .phone_QFIinnerbox {
+      width:250px;
+      height:450px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:auto;
+      margin-bottom:auto;
+      background-color:rgb(174,174,174);
+    }
+    .phone_QFIheaderbox {
+      width:200px;
+      height:150px;
+      display:flex;
+      flex-flow:row wrap;
+      border-bottom: 1px dashed black;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .phone_QFIheaderbox h2 {
+      margin-left: auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      line-height:50px;
+      color:black;
+      font-size:40px;
+    }
+    .phone_QFIfactbox {
+      width:200px;
+      height:100px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-right:auto;
+      margin-left:auto;
+      border-bottom: 1px dashed black;
+    }
+    .phone_QFIfactbox h2{
+      width:100%;
+      height:25px;
+      margin-top:auto;
+      margin-bottom:auto;
+      text-align: center;
+      font-size:22px;
+    }
+    .phone_QFIfactbox p {
+      width:100%;
+      height:25px;
+      margin-top:auto;
+      margin-bottom:auto;
+      text-align: center;
+      font-size:20px;
+    }
+  /* END OF QUICK FACTS/INTRO */
+
+
+  /* LOCATIONS */
+  .locationsOuterbox {
+    width:100%;
+    height:1000px;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox h2 {
+    width:100%;
+    height:60px;
+    margin-top: 10px;
+    text-align: center;
+    font-size:50px;
+  }
+  .locationsOuterbox_box {
+    width:100%;
+    height:900px;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .locationsOuterbox_boxcir1 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir1 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle1 {
+    width:200px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:100px;
+    background:url(chicago.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir2 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle2 {
+    width:200px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:100px;
+    background:url(../Images/Aboutus/newyorkcity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .locationsOuterbox_boxcir3 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir3 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle3 {
+    width:200px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:100px;
+    background:url(../Images/Aboutus/losangeles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* END OF LOCATIONS */
+
+
+  /* LINK TO FAQ */
+  .FAQlinkOuterbox {
+    width:100%;
+    height:400px;
+    margin-top:30px;
+  }
+  .FAQlinkOuterbox h2{
+    color:white;
+    font-size:40px;
+    text-align: center;
+  }
+  .FAQlinkbox {
+    width:325px;
+    height:50px;
+    background-color:white;
+    border-radius:50px;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .FAQlinkbox a {
+    text-decoration: none;
+  }
+  .FAQlinkbox h2 {
+   font-size:22px;
+   color:black;
+   line-height:50px;
+  }
+  .FAQlinkbox:hover {
+    box-shadow: inset 0 0 0 3px white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .FAQlinkbox:hover h2 {
+   color:white;
+  }
+  /* END OF LINK TO FAQ */
+
+}
+@media only screen and (min-width:414px) {
+  /* MISSION STATEMENT */
+    .MSbox {
+      width:100%;
+      height:400px;
+      background:url(MSwallpaper.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      display: flex;
+    }
+    .MSbox p {
+      width:350px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:100px;
+      font-size:35px;
+      text-align: center;
+      color:white;
+      font-style: italic;
+    }
+  /* END OF MISSION STATEMENT */
+
+
+  /* QUICK FACTS/INTRO */
+    .QFIouterbox {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_title {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_title p{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_box {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_box h2{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_box p{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_boxend {
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_boxend h2{
+      display:none;
+    }
+    .QFIouterbox_QFouterbox_boxend p{
+      display:none;
+    }
+    .Iouterbox {
+      display:none;
+    }
+    .Iouterbox h2{
+      display:none;
+    }
+    .Iouterbox p{
+      display:none;
+    }
+    .phone_QFIouterbox {
+      width:100%;
+      height:550px;
+      background-color:black;
+      display:flex;
+      flex-flow:row wrap;
+    }
+    .phone_QFIinnerbox {
+      width:250px;
+      height:450px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:auto;
+      margin-bottom:auto;
+      background-color:rgb(174,174,174);
+    }
+    .phone_QFIheaderbox {
+      width:200px;
+      height:150px;
+      display:flex;
+      flex-flow:row wrap;
+      border-bottom: 1px dashed black;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .phone_QFIheaderbox h2 {
+      margin-left: auto;
+      margin-right:auto;
+      margin-top: auto;
+      margin-bottom:auto;
+      line-height:50px;
+      color:black;
+      font-size:40px;
+    }
+    .phone_QFIfactbox {
+      width:200px;
+      height:100px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-right:auto;
+      margin-left:auto;
+      border-bottom: 1px dashed black;
+    }
+    .phone_QFIfactbox h2{
+      width:100%;
+      height:25px;
+      margin-top:auto;
+      margin-bottom:auto;
+      text-align: center;
+      font-size:22px;
+    }
+    .phone_QFIfactbox p {
+      width:100%;
+      height:25px;
+      margin-top:auto;
+      margin-bottom:auto;
+      text-align: center;
+      font-size:20px;
+    }
+  /* END OF QUICK FACTS/INTRO */
+
+
+  /* LOCATIONS */
+  .locationsOuterbox {
+    width:100%;
+    height:1000px;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox h2 {
+    width:100%;
+    height:60px;
+    margin-top: 10px;
+    text-align: center;
+    font-size:50px;
+  }
+  .locationsOuterbox_box {
+    width:100%;
+    height:900px;
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .locationsOuterbox_boxcir1 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir1 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle1 {
+    width:200px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:100px;
+    background:url(chicago.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir2 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle2 {
+    width:200px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:100px;
+    background:url(newyorkcity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .locationsOuterbox_boxcir3 {
+    width:100%;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir3 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle3 {
+    width:200px;
+    height:200px;
+    margin-right:auto;
+    margin-left:auto;
+    border-radius:100px;
+    background:url(losangeles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* END OF LOCATIONS */
+
+
+  /* LINK TO FAQ */
+  .FAQlinkOuterbox {
+    width:100%;
+    height:400px;
+    margin-top:30px;
+  }
+  .FAQlinkOuterbox h2{
+    color:white;
+    font-size:40px;
+    text-align: center;
+  }
+  .FAQlinkbox {
+    width:350px;
+    height:60px;
+    background-color:white;
+    border-radius:50px;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .FAQlinkbox a {
+    text-decoration: none;
+  }
+  .FAQlinkbox h2 {
+   font-size:24px;
+   color:black;
+   line-height:60px;
+  }
+  .FAQlinkbox:hover {
+    box-shadow: inset 0 0 0 3px white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .FAQlinkbox:hover h2 {
+   color:white;
+  }
+  /* END OF LINK TO FAQ */
+}
+@media only screen and (min-width:768px) {
+  /* MISSION STATEMENT */
+    .MSbox {
+      width:100%;
+      height:400px;
+      background:url(MSwallpaper.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      display: flex;
+    }
+    .MSbox p {
+      width:700px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:100px;
+      font-size:40px;
+      text-align: center;
+      color:white;
+      font-style: italic;
+    }
+  /* END OF MISSION STATEMENT */
+
+
+  /* QUICK FACTS/INTRO */
+    .QFIouterbox {
+      width:100%;
+      height:600px;
+      display:flex;
+      flex-flow: row wrap;
+    }
+    .QFIouterbox_QFouterbox {
+      width:550px;
+      height:75px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:50px;
+      background-color: rgb(174,174,174);
+      display: flex;
+      flex-flow:row wrap;
+    }
+    .QFIouterbox_QFouterbox_title {
+      width:215px;
+      height:50px;
+      margin-top:auto;
+      margin-bottom:auto;
+      border-right: 1px dashed black;
+      display:block;
+    }
+    .QFIouterbox_QFouterbox_title p{
+      line-height:50px;
+      margin-left:20px;
+      font-weight: bold;
+      font-size:12px;
+      display:block;
+    }
+    .QFIouterbox_QFouterbox_box {
+      width:103px;
+      height:50px;
+      margin-top:auto;
+      margin-bottom:auto;
+      display: flex;
+      flex-flow: row wrap;
+      border-right: 1px dashed black;
+    }
+    .QFIouterbox_QFouterbox_box h2{
+      width:100%;
+      font-size:10px;
+      text-align: center;
+      display:block;
+    }
+    .QFIouterbox_QFouterbox_box p{
+      width:100%;
+      font-size: 20px;
+      display:block;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_boxend {
+      width:103px;
+      height:50px;
+      display: flex;
+      flex-flow: row wrap;
+      margin-top:auto;
+      margin-bottom:auto;
+    }
+    .QFIouterbox_QFouterbox_boxend h2{
+      width:100%;
+      font-size:10px;
+      text-align: center;
+      display:block;
+    }
+    .QFIouterbox_QFouterbox_boxend p{
+      width:100%;
+      font-size: 20px;
+      text-align: center;
+      display:block;
+    }
+    .Iouterbox {
+      width:650px;
+      height:400px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .Iouterbox h2{
+      color:white;
+      font-size:37px;
+      margin-left: auto;
+      margin-right: auto;
+      display:block;
+    }
+    .Iouterbox p{
+      color:white;
+      font-size:16px;
+      line-height:30px;
+      display:block;
+    }
+    .phone_QFIouterbox {
+      display:none;
+    }
+    .phone_QFIinnerbox {
+      display:none;
+    }
+    .phone_QFIheaderbox {
+      display:none;
+    }
+    .phone_QFIheaderbox h2 {
+      display:none;
+    }
+    .phone_QFIfactbox {
+      display:none;
+    }
+    .phone_QFIfactbox h2{
+      display:none;
+    }
+    .phone_QFIfactbox p {
+      display:none;
+    }
+  /* END OF QUICK FACTS/INTRO */
+
+
+  /* LOCATIONS */
+  .locationsOuterbox {
+    width:100%;
+    height:420px;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox h2 {
+    width:100%;
+    height:60px;
+    margin-top: 10px;
+    text-align: center;
+    font-size:50px;
+  }
+  .locationsOuterbox_box {
+    width:700px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow:row wrap;
+  }
+  .locationsOuterbox_boxcir1 {
+    width:200px;
+    height:300px;
+    margin-right:50px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir1 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle1 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(chicago.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_boxcir2 {
+    width:200px;
+    height:300px;
+    margin-right:50px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_circle2 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(newyorkcity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir3 {
+    width:200px;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir3 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle3 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(losangeles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* END OF LOCATIONS */
+
+
+  /* LINK TO FAQ */
+  .FAQlinkOuterbox {
+    width:100%;
+    height:400px;
+    margin-top:30px;
+  }
+  .FAQlinkOuterbox h2{
+    color:white;
+    font-size:50px;
+    text-align: center;
+  }
+  .FAQlinkbox {
+    width:600px;
+    height:75px;
+    background-color:white;
+    border-radius:50px;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .FAQlinkbox a {
+    text-decoration: none;
+  }
+  .FAQlinkbox h2 {
+   font-size:35px;
+   color:black;
+   line-height:75px
+  }
+  .FAQlinkbox:hover {
+    box-shadow: inset 0 0 0 3px white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .FAQlinkbox:hover h2 {
+   color:white;
+  }
+  /* END OF LINK TO FAQ */
+}
+@media only screen and (min-width:1000px) {
+
+  /* MISSION STATEMENT */
+    .MSbox {
+      width:100%;
+      height:500px;
+      background:url(MSwallpaper.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      display: flex;
+    }
+    .MSbox p {
+      width:900px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:100px;
+      font-size:50px;
+      text-align: center;
+      color:white;
+      font-style: italic;
+    }
+  /* END OF MISSION STATEMENT */
+
+
+  /* QUICK FACTS/INTRO */
+    .QFIouterbox {
+      width:100%;
+      height:600px;
+      display:flex;
+      flex-flow: row wrap;
+    }
+    .QFIouterbox_QFouterbox {
+      width:720px;
+      height:75px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:50px;
+      background-color: rgb(174,174,174);
+      display: flex;
+      flex-flow:row wrap;
+    }
+    .QFIouterbox_QFouterbox_title {
+      width:290px;
+      height:50px;
+      margin-top:auto;
+      margin-bottom:auto;
+      border-right: 1px dashed black;
+    }
+    .QFIouterbox_QFouterbox_title p{
+      line-height:50px;
+      margin-left:20px;
+      font-weight: bold;
+    }
+    .QFIouterbox_QFouterbox_box {
+      width:122px;
+      height:50px;
+      margin-top:auto;
+      margin-bottom:auto;
+      display: flex;
+      flex-flow: row wrap;
+      border-right: 1px dashed black;
+    }
+    .QFIouterbox_QFouterbox_box h2{
+      width:100%;
+      font-size:12px;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_box p{
+      width:100%;
+      font-size: 26px;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_boxend {
+      width:112px;
+      height:50px;
+      display: flex;
+      flex-flow: row wrap;
+      margin-top:auto;
+      margin-bottom:auto;
+    }
+    .QFIouterbox_QFouterbox_boxend h2{
+      width:100%;
+      font-size:12px;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_boxend p{
+      width:100%;
+      font-size: 26px;
+      text-align: center;
+    }
+    .Iouterbox {
+      width:900px;
+      height:450px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:30px;
+    }
+    .Iouterbox h2{
+      color:white;
+      font-size:40px;
+      margin-left: auto;
+      margin-right:auto;
+    }
+    .Iouterbox p{
+      color:white;
+      font-size:21px;
+      line-height:30px;
+    }
+  /* END OF QUICK FACTS/INTRO */
+
+
+  /* LOCATIONS */
+  .locationsOuterbox {
+    width:100%;
+    height:420px;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox h2 {
+    width:100%;
+    height:60px;
+    margin-top: 10px;
+    text-align: center;
+    font-size:60px;
+  }
+  .locationsOuterbox_box {
+    width:700px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow:row wrap;
+  }
+  .locationsOuterbox_boxcir1 {
+    width:200px;
+    height:300px;
+    margin-right:50px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir1 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle1 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(chicago.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_boxcir2 {
+    width:200px;
+    height:300px;
+    margin-right:50px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_circle2 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(newyorkcity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir3 {
+    width:200px;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir3 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle3 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(../Images/Aboutus/losangeles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* END OF LOCATIONS */
+
+
+  /* LINK TO FAQ */
+  .FAQlinkOuterbox {
+    width:100%;
+    height:800px;
+  }
+  .FAQlinkOuterbox h2{
+    color:white;
+    font-size:50px;
+    text-align: center;
+  }
+  .FAQlinkbox {
+    width:700px;
+    height:75px;
+    background-color:white;
+    border-radius:50px;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .FAQlinkbox a {
+    text-decoration: none;
+  }
+  .FAQlinkbox h2 {
+   font-size:43px;
+   color:black;
+   line-height:75px;
+  }
+  .FAQlinkbox:hover {
+    box-shadow: inset 0 0 0 3px white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .FAQlinkbox:hover h2 {
+   color:white;
+  }
+  /* END OF LINK TO FAQ */
+}
+@media only screen and (min-width:1350px) {
+  /* MISSION STATEMENT */
+    .MSbox {
+      width:100%;
+      height:600px;
+      background:url(MSwallpaper.jpg);
+      background-size:cover;
+      background-repeat: no-repeat;
+      display: flex;
+    }
+    .MSbox p {
+      width:900px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:100px;
+      font-size:70px;
+      text-align: center;
+      color:white;
+      font-style: italic;
+    }
+  /* END OF MISSION STATEMENT */
+
+
+  /* QUICK FACTS/INTRO */
+    .QFIouterbox {
+      width:100%;
+      height:600px;
+      display:flex;
+      flex-flow: row wrap;
+    }
+    .QFIouterbox_QFouterbox {
+      width:800px;
+      height:75px;
+      margin-right:auto;
+      margin-left:auto;
+      margin-top:50px;
+      background-color: rgb(174,174,174);
+      display: flex;
+      flex-flow:row wrap;
+    }
+    .QFIouterbox_QFouterbox_title {
+      width:300px;
+      height:50px;
+      margin-top:auto;
+      margin-bottom:auto;
+      border-right: 1px dashed black;
+    }
+    .QFIouterbox_QFouterbox_title p{
+      line-height:50px;
+      margin-left:20px;
+      font-weight: bold;
+    }
+    .QFIouterbox_QFouterbox_box {
+      width:150px;
+      height:50px;
+      margin-top:auto;
+      margin-bottom:auto;
+      display: flex;
+      flex-flow: row wrap;
+      border-right: 1px dashed black;
+    }
+    .QFIouterbox_QFouterbox_box h2{
+      width:100%;
+      font-size:12px;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_box p{
+      width:100%;
+      font-size: 26px;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_boxend {
+      width:150px;
+      height:50px;
+      display: flex;
+      flex-flow: row wrap;
+      margin-top:auto;
+      margin-bottom:auto;
+    }
+    .QFIouterbox_QFouterbox_boxend h2{
+      width:100%;
+      font-size:12px;
+      text-align: center;
+    }
+    .QFIouterbox_QFouterbox_boxend p{
+      width:100%;
+      font-size: 26px;
+      text-align: center;
+    }
+    .Iouterbox {
+      width:1000px;
+      height:400px;
+      display:flex;
+      flex-flow:row wrap;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top:30px;
+    }
+    .Iouterbox h2{
+      color:white;
+      font-size:50px;
+      margin-left:auto;
+      margin-right: auto;
+    }
+    .Iouterbox p{
+      color:white;
+      font-size:22px;
+      line-height:30px;
+    }
+  /* END OF QUICK FACTS/INTRO */
+
+
+  /* LOCATIONS */
+  .locationsOuterbox {
+    width:100%;
+    height:420px;
+    background-color:white;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox h2 {
+    width:100%;
+    height:60px;
+    margin-top: 10px;
+    text-align: center;
+    font-size:60px;
+  }
+  .locationsOuterbox_box {
+    width:700px;
+    height:200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-flow:row wrap;
+  }
+  .locationsOuterbox_boxcir1 {
+    width:200px;
+    height:300px;
+    margin-right:50px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir1 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle1 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(chicago.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir2 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_boxcir2 {
+    width:200px;
+    height:300px;
+    margin-right:50px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_circle2 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(newyorkcity.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .locationsOuterbox_boxcir3 {
+    width:200px;
+    height:300px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .locationsOuterbox_boxcir3 h2{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:25px;
+  }
+  .locationsOuterbox_circle3 {
+    width:200px;
+    height:200px;
+    border-radius:100px;
+    background:url(losangeles.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  /* END OF LOCATIONS */
+
+
+  /* LINK TO FAQ */
+  .FAQlinkOuterbox {
+    width:100%;
+    height:350px;
+    margin-top:50px;
+  }
+  .FAQlinkOuterbox h2{
+    color:white;
+    font-size:60px;
+    text-align: center;
+  }
+  .FAQlinkbox {
+    width:900px;
+    height:90px;
+    background-color:white;
+    border-radius:50px;
+    margin-top:100px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  .FAQlinkbox a {
+    text-decoration: none;
+  }
+  .FAQlinkbox h2 {
+   font-size:50px;
+   color:black;
+   line-height:90px;
+  }
+  .FAQlinkbox:hover {
+    box-shadow: inset 0 0 0 3px white;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    background-color:black;
+  }
+  .FAQlinkbox:hover h2 {
+   font-size:50px;
+   color:white;
+  }
+  /* END OF LINK TO FAQ */
+}
