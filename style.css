@@ -2022,7 +2022,7 @@
   }
   /* END OF NAVIGATION */
 
-  /*  FOOTER */
+   /*  FOOTER */
   /*  HOME SECTION */
   .footerOuterbox {
     position:relative;
@@ -2134,6 +2134,4 @@
   .footerOuterbox_careerslinks:hover {
     text-decoration:underline;
   }
-  /* END OF CAREERS SECTION */
-  /*  END OF FOOTER */
 }
