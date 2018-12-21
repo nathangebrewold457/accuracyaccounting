@@ -203,7 +203,7 @@
 .footerOuterbox_homeOuterbox {
   width:50px;
   height:280px;
-  margin-left:10px;
+  margin-left:5px;
 }
 .footerOuterbox_homeHeader {
   text-decoration: none;
@@ -283,7 +283,7 @@
 .footerOuterbox_careersOuterbox {
   width:50px;
   height:280px;
-  margin-left:20px;
+  margin-left:15px;
 }
 .footerOuterbox_careersHeader {
   font-size:8px;
@@ -398,121 +398,123 @@
   /* END OF NAVIGATION */
 
 
-/*  FOOTER */
-/*  HOME SECTION */
-.footerOuterbox {
-  position:relative;
-  height:300px;
-  margin-top:-300px;
-  clear:both;
-  background-color:rgb(149,149,149);
-  display:flex;
-  flex-flow:row wrap;
-}
-.footerOuterbox_homeOuterbox {
-  width:75px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_homeHeader {
-  text-decoration: none;
-  font-size:10px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_homeHeader:hover {
-  text-decoration:underline;
-}
-/*  END OF HOME SECTION */
-/*  ABOUTUS SECTION */
-.footerOuterbox_aboutusOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_aboutusHeader {
-  text-decoration: none;
-  color:black;
-  font-size:10px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutusHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_aboutuslinks {
-  font-size:10px;
-  text-decoration: none;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutuslinks:hover {
-  text-decoration:underline;
-}
-/* END OF ABOUTUS SECTION */
-/*  SERVICES SECTION */
-.footerOuterbox_servicesOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_servicesHeader {
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-  font-size:10px;
-}
-.footerOuterbox_servicesHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_serviceslinks {
-  text-decoration: none;
-  color:white;
-  font-size:10px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_serviceslinks:hover {
-  text-decoration:underline;
-}
-/*  END OF SERVICES SECTION */
-/* CONTACT US SECTION */
-.footerOuterbox_contactusOuterbox {
-  width:75px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_contactusHeader {
-  text-decoration: none;
-  font-size:10px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_contactusHeader:hover {
-  text-decoration:underline;
-}
-/* END OF CONTACT US SECTION */
-/*  CAREERS SECTION */
-.footerOuterbox_careersOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_careersHeader {
-  font-size:10px;
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careersHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_careerslinks {
-  text-decoration: none;
-  font-size:10px;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careerslinks:hover {
-  text-decoration:underline;
-}
-/* END OF CAREERS SECTION */
-/*  END OF FOOTER */
+  /*  FOOTER */
+  /*  HOME SECTION */
+  .footerOuterbox {
+    position:relative;
+    height:300px;
+    margin-top:-300px;
+    clear:both;
+    background-color:rgb(149,149,149);
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .footerOuterbox_homeOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:10px;
+  }
+  .footerOuterbox_homeHeader {
+    text-decoration: none;
+    font-size:9px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_homeHeader:hover {
+    text-decoration:underline;
+  }
+  /*  END OF HOME SECTION */
+  /*  ABOUTUS SECTION */
+  .footerOuterbox_aboutusOuterbox {
+    width:50px;
+    height:280px;
+  }
+  .footerOuterbox_aboutusHeader {
+    text-decoration: none;
+    color:black;
+    font-size:9px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutusHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_aboutuslinks {
+    font-size:9px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutuslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF ABOUTUS SECTION */
+  /*  SERVICES SECTION */
+  .footerOuterbox_servicesOuterbox {
+    width:50px;
+    height:280px;
+    margin-left: 10px;
+  }
+  .footerOuterbox_servicesHeader {
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size:9px;
+  }
+  .footerOuterbox_servicesHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_serviceslinks {
+    text-decoration: none;
+    color:white;
+    font-size:9px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_serviceslinks:hover {
+    text-decoration:underline;
+  }
+  /*  END OF SERVICES SECTION */
+  /* CONTACT US SECTION */
+  .footerOuterbox_contactusOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:23px;
+  }
+  .footerOuterbox_contactusHeader {
+    text-decoration: none;
+    font-size:9px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_contactusHeader:hover {
+    text-decoration:underline;
+  }
+  /* END OF CONTACT US SECTION */
+  /*  CAREERS SECTION */
+  .footerOuterbox_careersOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:20px;
+  }
+  .footerOuterbox_careersHeader {
+    font-size:9px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careersHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_careerslinks {
+    text-decoration: none;
+    font-size:9px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careerslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF CAREERS SECTION */
+  /*  END OF FOOTER */
 }
 @media only screen and (min-width:414px) {
   /* NAVIGATION */
@@ -619,7 +621,7 @@
     flex-flow:row wrap;
   }
   .footerOuterbox_homeOuterbox {
-    width:75px;
+    width:60px;
     height:280px;
     margin-left:10px;
   }
@@ -635,7 +637,7 @@
   /*  END OF HOME SECTION */
   /*  ABOUTUS SECTION */
   .footerOuterbox_aboutusOuterbox {
-    width:75px;
+    width:60px;
     height:280px;
   }
   .footerOuterbox_aboutusHeader {
@@ -659,7 +661,7 @@
   /* END OF ABOUTUS SECTION */
   /*  SERVICES SECTION */
   .footerOuterbox_servicesOuterbox {
-    width:75px;
+    width:60px;
     height:280px;
   }
   .footerOuterbox_servicesHeader {
@@ -683,9 +685,9 @@
   /*  END OF SERVICES SECTION */
   /* CONTACT US SECTION */
   .footerOuterbox_contactusOuterbox {
-    width:75px;
+    width:60px;
     height:280px;
-    margin-left:10px;
+    margin-left:20px;
   }
   .footerOuterbox_contactusHeader {
     text-decoration: none;
@@ -699,7 +701,7 @@
   /* END OF CONTACT US SECTION */
   /*  CAREERS SECTION */
   .footerOuterbox_careersOuterbox {
-    width:75px;
+    width:60px;
     height:280px;
   }
   .footerOuterbox_careersHeader {
@@ -816,122 +818,122 @@
   /* END OF NAVIGATION */
 
 
-/*  FOOTER */
-/*  HOME SECTION */
-.footerOuterbox {
-  position:relative;
-  height:300px;
-  margin-top:-300px;
-  clear:both;
-  background-color:rgb(149,149,149);
-  display:flex;
-  flex-flow:row wrap;
-}
-.footerOuterbox_homeOuterbox {
-  width:50px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_homeHeader {
-  text-decoration: none;
-  font-size:8px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_homeHeader:hover {
-  text-decoration:underline;
-}
-/*  END OF HOME SECTION */
-/*  ABOUTUS SECTION */
-.footerOuterbox_aboutusOuterbox {
-  width:50px;
-  height:280px;
-}
-.footerOuterbox_aboutusHeader {
-  text-decoration: none;
-  color:black;
-  font-size:8px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutusHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_aboutuslinks {
-  font-size:8px;
-  text-decoration: none;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutuslinks:hover {
-  text-decoration:underline;
-}
-/* END OF ABOUTUS SECTION */
-/*  SERVICES SECTION */
-.footerOuterbox_servicesOuterbox {
-  width:50px;
-  height:280px;
-}
-.footerOuterbox_servicesHeader {
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-  font-size:8px;
-}
-.footerOuterbox_servicesHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_serviceslinks {
-  text-decoration: none;
-  color:white;
-  font-size:8px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_serviceslinks:hover {
-  text-decoration:underline;
-}
-/*  END OF SERVICES SECTION */
-/* CONTACT US SECTION */
-.footerOuterbox_contactusOuterbox {
-  width:50px;
-  height:280px;
-  margin-left:20px;
-}
-.footerOuterbox_contactusHeader {
-  text-decoration: none;
-  font-size:8px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_contactusHeader:hover {
-  text-decoration:underline;
-}
-/* END OF CONTACT US SECTION */
-/*  CAREERS SECTION */
-.footerOuterbox_careersOuterbox {
-  width:50px;
-  height:280px;
-  margin-left:20px;
-}
-.footerOuterbox_careersHeader {
-  font-size:8px;
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careersHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_careerslinks {
-  text-decoration: none;
-  font-size:8px;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careerslinks:hover {
-  text-decoration:underline;
-}
-/* END OF CAREERS SECTION */
-/*  END OF FOOTER */
+  /*  FOOTER */
+  /*  HOME SECTION */
+  .footerOuterbox {
+    position:relative;
+    height:300px;
+    margin-top:-300px;
+    clear:both;
+    background-color:rgb(149,149,149);
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .footerOuterbox_homeOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:100px;
+  }
+  .footerOuterbox_homeHeader {
+    text-decoration: none;
+    font-size:8px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_homeHeader:hover {
+    text-decoration:underline;
+  }
+  /*  END OF HOME SECTION */
+  /*  ABOUTUS SECTION */
+  .footerOuterbox_aboutusOuterbox {
+    width:50px;
+    height:280px;
+  }
+  .footerOuterbox_aboutusHeader {
+    text-decoration: none;
+    color:black;
+    font-size:8px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutusHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_aboutuslinks {
+    font-size:8px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutuslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF ABOUTUS SECTION */
+  /*  SERVICES SECTION */
+  .footerOuterbox_servicesOuterbox {
+    width:50px;
+    height:280px;
+  }
+  .footerOuterbox_servicesHeader {
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size:8px;
+  }
+  .footerOuterbox_servicesHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_serviceslinks {
+    text-decoration: none;
+    color:white;
+    font-size:8px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_serviceslinks:hover {
+    text-decoration:underline;
+  }
+  /*  END OF SERVICES SECTION */
+  /* CONTACT US SECTION */
+  .footerOuterbox_contactusOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:20px;
+  }
+  .footerOuterbox_contactusHeader {
+    text-decoration: none;
+    font-size:8px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_contactusHeader:hover {
+    text-decoration:underline;
+  }
+  /* END OF CONTACT US SECTION */
+  /*  CAREERS SECTION */
+  .footerOuterbox_careersOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:15px;
+  }
+  .footerOuterbox_careersHeader {
+    font-size:8px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careersHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_careerslinks {
+    text-decoration: none;
+    font-size:8px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careerslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF CAREERS SECTION */
+  /*  END OF FOOTER */
 }
 @media only screen and (min-width:667px){
   /* NAVIGATION */
@@ -1026,121 +1028,123 @@
   /* END OF NAVIGATION */
 
 
-/*  FOOTER */
-/*  HOME SECTION */
-.footerOuterbox {
-  position:relative;
-  height:300px;
-  margin-top:-300px;
-  clear:both;
-  background-color:rgb(149,149,149);
-  display:flex;
-  flex-flow:row wrap;
-}
-.footerOuterbox_homeOuterbox {
-  width:75px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_homeHeader {
-  text-decoration: none;
-  font-size:10px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_homeHeader:hover {
-  text-decoration:underline;
-}
-/*  END OF HOME SECTION */
-/*  ABOUTUS SECTION */
-.footerOuterbox_aboutusOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_aboutusHeader {
-  text-decoration: none;
-  color:black;
-  font-size:10px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutusHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_aboutuslinks {
-  font-size:10px;
-  text-decoration: none;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutuslinks:hover {
-  text-decoration:underline;
-}
-/* END OF ABOUTUS SECTION */
-/*  SERVICES SECTION */
-.footerOuterbox_servicesOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_servicesHeader {
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-  font-size:10px;
-}
-.footerOuterbox_servicesHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_serviceslinks {
-  text-decoration: none;
-  color:white;
-  font-size:10px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_serviceslinks:hover {
-  text-decoration:underline;
-}
-/*  END OF SERVICES SECTION */
-/* CONTACT US SECTION */
-.footerOuterbox_contactusOuterbox {
-  width:75px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_contactusHeader {
-  text-decoration: none;
-  font-size:10px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_contactusHeader:hover {
-  text-decoration:underline;
-}
-/* END OF CONTACT US SECTION */
-/*  CAREERS SECTION */
-.footerOuterbox_careersOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_careersHeader {
-  font-size:10px;
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careersHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_careerslinks {
-  text-decoration: none;
-  font-size:10px;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careerslinks:hover {
-  text-decoration:underline;
-}
-/* END OF CAREERS SECTION */
-/*  END OF FOOTER */
+  /*  FOOTER */
+  /*  HOME SECTION */
+  .footerOuterbox {
+    position:relative;
+    height:300px;
+    margin-top:-300px;
+    clear:both;
+    background-color:rgb(149,149,149);
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .footerOuterbox_homeOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:150px;
+  }
+  .footerOuterbox_homeHeader {
+    text-decoration: none;
+    font-size:9px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_homeHeader:hover {
+    text-decoration:underline;
+  }
+  /*  END OF HOME SECTION */
+  /*  ABOUTUS SECTION */
+  .footerOuterbox_aboutusOuterbox {
+    width:50px;
+    height:280px;
+  }
+  .footerOuterbox_aboutusHeader {
+    text-decoration: none;
+    color:black;
+    font-size:9px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutusHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_aboutuslinks {
+    font-size:9px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutuslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF ABOUTUS SECTION */
+  /*  SERVICES SECTION */
+  .footerOuterbox_servicesOuterbox {
+    width:50px;
+    height:280px;
+    margin-left: 10px;
+  }
+  .footerOuterbox_servicesHeader {
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size:9px;
+  }
+  .footerOuterbox_servicesHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_serviceslinks {
+    text-decoration: none;
+    color:white;
+    font-size:9px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_serviceslinks:hover {
+    text-decoration:underline;
+  }
+  /*  END OF SERVICES SECTION */
+  /* CONTACT US SECTION */
+  .footerOuterbox_contactusOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:23px;
+  }
+  .footerOuterbox_contactusHeader {
+    text-decoration: none;
+    font-size:9px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_contactusHeader:hover {
+    text-decoration:underline;
+  }
+  /* END OF CONTACT US SECTION */
+  /*  CAREERS SECTION */
+  .footerOuterbox_careersOuterbox {
+    width:50px;
+    height:280px;
+    margin-left:20px;
+  }
+  .footerOuterbox_careersHeader {
+    font-size:9px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careersHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_careerslinks {
+    text-decoration: none;
+    font-size:9px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careerslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF CAREERS SECTION */
+  /*  END OF FOOTER */
 }
 @media only screen and (min-width:736px) {
   /* NAVIGATION */
@@ -1235,121 +1239,121 @@
   /* END OF NAVIGATION */
 
 
-/*  FOOTER */
-/*  HOME SECTION */
-.footerOuterbox {
-  position:relative;
-  height:300px;
-  margin-top:-300px;
-  clear:both;
-  background-color:rgb(149,149,149);
-  display:flex;
-  flex-flow:row wrap;
-}
-.footerOuterbox_homeOuterbox {
-  width:75px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_homeHeader {
-  text-decoration: none;
-  font-size:10px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_homeHeader:hover {
-  text-decoration:underline;
-}
-/*  END OF HOME SECTION */
-/*  ABOUTUS SECTION */
-.footerOuterbox_aboutusOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_aboutusHeader {
-  text-decoration: none;
-  color:black;
-  font-size:10px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutusHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_aboutuslinks {
-  font-size:10px;
-  text-decoration: none;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_aboutuslinks:hover {
-  text-decoration:underline;
-}
-/* END OF ABOUTUS SECTION */
-/*  SERVICES SECTION */
-.footerOuterbox_servicesOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_servicesHeader {
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-  font-size:10px;
-}
-.footerOuterbox_servicesHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_serviceslinks {
-  text-decoration: none;
-  color:white;
-  font-size:10px;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_serviceslinks:hover {
-  text-decoration:underline;
-}
-/*  END OF SERVICES SECTION */
-/* CONTACT US SECTION */
-.footerOuterbox_contactusOuterbox {
-  width:75px;
-  height:280px;
-  margin-left:10px;
-}
-.footerOuterbox_contactusHeader {
-  text-decoration: none;
-  font-size:10px;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_contactusHeader:hover {
-  text-decoration:underline;
-}
-/* END OF CONTACT US SECTION */
-/*  CAREERS SECTION */
-.footerOuterbox_careersOuterbox {
-  width:75px;
-  height:280px;
-}
-.footerOuterbox_careersHeader {
-  font-size:10px;
-  text-decoration: none;
-  color:black;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careersHeader:hover {
-  text-decoration:underline;
-}
-.footerOuterbox_careerslinks {
-  text-decoration: none;
-  font-size:10px;
-  color:white;
-  font-family: 'Roboto', sans-serif;
-}
-.footerOuterbox_careerslinks:hover {
-  text-decoration:underline;
-}
-/* END OF CAREERS SECTION */
-/*  END OF FOOTER */
+  /*  FOOTER */
+  /*  HOME SECTION */
+  .footerOuterbox {
+    position:relative;
+    height:300px;
+    margin-top:-300px;
+    clear:both;
+    background-color:rgb(149,149,149);
+    display:flex;
+    flex-flow:row wrap;
+  }
+  .footerOuterbox_homeOuterbox {
+    width:60px;
+    height:280px;
+    margin-left:175px;
+  }
+  .footerOuterbox_homeHeader {
+    text-decoration: none;
+    font-size:10px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_homeHeader:hover {
+    text-decoration:underline;
+  }
+  /*  END OF HOME SECTION */
+  /*  ABOUTUS SECTION */
+  .footerOuterbox_aboutusOuterbox {
+    width:60px;
+    height:280px;
+  }
+  .footerOuterbox_aboutusHeader {
+    text-decoration: none;
+    color:black;
+    font-size:10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutusHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_aboutuslinks {
+    font-size:10px;
+    text-decoration: none;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_aboutuslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF ABOUTUS SECTION */
+  /*  SERVICES SECTION */
+  .footerOuterbox_servicesOuterbox {
+    width:60px;
+    height:280px;
+  }
+  .footerOuterbox_servicesHeader {
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+    font-size:10px;
+  }
+  .footerOuterbox_servicesHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_serviceslinks {
+    text-decoration: none;
+    color:white;
+    font-size:10px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_serviceslinks:hover {
+    text-decoration:underline;
+  }
+  /*  END OF SERVICES SECTION */
+  /* CONTACT US SECTION */
+  .footerOuterbox_contactusOuterbox {
+    width:60px;
+    height:280px;
+    margin-left:20px;
+  }
+  .footerOuterbox_contactusHeader {
+    text-decoration: none;
+    font-size:10px;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_contactusHeader:hover {
+    text-decoration:underline;
+  }
+  /* END OF CONTACT US SECTION */
+  /*  CAREERS SECTION */
+  .footerOuterbox_careersOuterbox {
+    width:60px;
+    height:280px;
+  }
+  .footerOuterbox_careersHeader {
+    font-size:10px;
+    text-decoration: none;
+    color:black;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careersHeader:hover {
+    text-decoration:underline;
+  }
+  .footerOuterbox_careerslinks {
+    text-decoration: none;
+    font-size:10px;
+    color:white;
+    font-family: 'Roboto', sans-serif;
+  }
+  .footerOuterbox_careerslinks:hover {
+    text-decoration:underline;
+  }
+  /* END OF CAREERS SECTION */
+  /*  END OF FOOTER */
 }
 @media only screen and (min-width:768px) {
   /* NAVIGATION */
@@ -1516,10 +1520,6 @@
 
   /*  FOOTER */
   /*  HOME SECTION */
-  .main {
-    overflow:auto;
-    padding-bottom:300px;
-  }
   .footerOuterbox {
     position:relative;
     height:300px;
@@ -1532,12 +1532,13 @@
   .footerOuterbox_homeOuterbox {
     width:125px;
     height:280px;
-    margin-left:75px;
+    margin-left:50px;
   }
   .footerOuterbox_homeHeader {
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_homeHeader:hover {
     text-decoration:underline;
@@ -1552,6 +1553,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_aboutusHeader:hover {
     text-decoration:underline;
@@ -1560,6 +1562,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_aboutuslinks:hover {
     text-decoration:underline;
@@ -1574,6 +1577,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_servicesHeader:hover {
     text-decoration:underline;
@@ -1582,6 +1586,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_serviceslinks:hover {
     text-decoration:underline;
@@ -1596,6 +1601,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_contactusHeader:hover {
     text-decoration:underline;
@@ -1610,6 +1616,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_careersHeader:hover {
     text-decoration:underline;
@@ -1618,6 +1625,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:13px;
   }
   .footerOuterbox_careerslinks:hover {
     text-decoration:underline;
@@ -1761,7 +1769,7 @@
   /* END OF NAVIGATION */
 
 
-  /* FOOTER */
+  /*  FOOTER */
   /*  HOME SECTION */
   .footerOuterbox {
     position:relative;
@@ -2014,8 +2022,8 @@
   }
   /* END OF NAVIGATION */
 
-  /* FOOTER */
-   /*  HOME SECTION */
+  /*  FOOTER */
+  /*  HOME SECTION */
   .footerOuterbox {
     position:relative;
     height:300px;
@@ -2034,6 +2042,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:15px;
   }
   .footerOuterbox_homeHeader:hover {
     text-decoration:underline;
@@ -2048,12 +2057,14 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:15px;
   }
   .footerOuterbox_aboutusHeader:hover {
     text-decoration:underline;
   }
   .footerOuterbox_aboutuslinks {
     text-decoration: none;
+    font-size:15px;
     color:white;
     font-family: 'Roboto', sans-serif;
   }
@@ -2070,6 +2081,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:15px;
   }
   .footerOuterbox_servicesHeader:hover {
     text-decoration:underline;
@@ -2077,6 +2089,7 @@
   .footerOuterbox_serviceslinks {
     text-decoration: none;
     color:white;
+    font-size:15px;
     font-family: 'Roboto', sans-serif;
   }
   .footerOuterbox_serviceslinks:hover {
@@ -2090,6 +2103,7 @@
   }
   .footerOuterbox_contactusHeader {
     text-decoration: none;
+    font-size:15px;
     color:black;
     font-family: 'Roboto', sans-serif;
   }
@@ -2105,6 +2119,7 @@
   .footerOuterbox_careersHeader {
     text-decoration: none;
     color:black;
+    font-size:15px;
     font-family: 'Roboto', sans-serif;
   }
   .footerOuterbox_careersHeader:hover {
@@ -2113,6 +2128,7 @@
   .footerOuterbox_careerslinks {
     text-decoration: none;
     color:white;
+    font-size:15px;
     font-family: 'Roboto', sans-serif;
   }
   .footerOuterbox_careerslinks:hover {
