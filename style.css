@@ -1789,6 +1789,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_homeHeader:hover {
     text-decoration:underline;
@@ -1803,6 +1804,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_aboutusHeader:hover {
     text-decoration:underline;
@@ -1811,6 +1813,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_aboutuslinks:hover {
     text-decoration:underline;
@@ -1825,6 +1828,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_servicesHeader:hover {
     text-decoration:underline;
@@ -1833,6 +1837,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_serviceslinks:hover {
     text-decoration:underline;
@@ -1847,6 +1852,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_contactusHeader:hover {
     text-decoration:underline;
@@ -1861,6 +1867,7 @@
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_careersHeader:hover {
     text-decoration:underline;
@@ -1869,6 +1876,7 @@
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
+    font-size:21px;
   }
   .footerOuterbox_careerslinks:hover {
     text-decoration:underline;
