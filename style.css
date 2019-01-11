@@ -624,10 +624,11 @@
     width:60px;
     height:280px;
     margin-left:30px;
+    margin-top:15px;
   }
   .footerOuterbox_homeHeader {
     text-decoration: none;
-    font-size:10px;
+    font-size:14px;
     color:black;
     font-family: 'Roboto', sans-serif;
   }
@@ -639,18 +640,19 @@
   .footerOuterbox_aboutusOuterbox {
     width:60px;
     height:280px;
+    margin-top:15px;
   }
   .footerOuterbox_aboutusHeader {
     text-decoration: none;
     color:black;
-    font-size:10px;
+    font-size:14px;
     font-family: 'Roboto', sans-serif;
   }
   .footerOuterbox_aboutusHeader:hover {
     text-decoration:underline;
   }
   .footerOuterbox_aboutuslinks {
-    font-size:10px;
+    font-size:13px;
     text-decoration: none;
     color:white;
     font-family: 'Roboto', sans-serif;
@@ -663,12 +665,13 @@
   .footerOuterbox_servicesOuterbox {
     width:60px;
     height:280px;
+    margin-top:15px;
   }
   .footerOuterbox_servicesHeader {
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
-    font-size:10px;
+    font-size:14px;
   }
   .footerOuterbox_servicesHeader:hover {
     text-decoration:underline;
@@ -676,7 +679,7 @@
   .footerOuterbox_serviceslinks {
     text-decoration: none;
     color:white;
-    font-size:10px;
+    font-size:13px;
     font-family: 'Roboto', sans-serif;
   }
   .footerOuterbox_serviceslinks:hover {
@@ -688,10 +691,11 @@
     width:60px;
     height:280px;
     margin-left:20px;
+    margin-top:15px;
   }
   .footerOuterbox_contactusHeader {
     text-decoration: none;
-    font-size:10px;
+    font-size:14px;
     color:black;
     font-family: 'Roboto', sans-serif;
   }
@@ -703,9 +707,10 @@
   .footerOuterbox_careersOuterbox {
     width:60px;
     height:280px;
+    margin-top:15px;
   }
   .footerOuterbox_careersHeader {
-    font-size:10px;
+    font-size:14px;
     text-decoration: none;
     color:black;
     font-family: 'Roboto', sans-serif;
@@ -715,7 +720,7 @@
   }
   .footerOuterbox_careerslinks {
     text-decoration: none;
-    font-size:10px;
+    font-size:13px;
     color:white;
     font-family: 'Roboto', sans-serif;
   }
