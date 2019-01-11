@@ -2045,6 +2045,7 @@
     width:200px;
     height:250px;
     margin-left:150px;
+    margin-top:20px;
   }
   .footerOuterbox_homeHeader {
     text-decoration: none;
@@ -2060,6 +2061,7 @@
   .footerOuterbox_aboutusOuterbox {
     width:200px;
     height:250px;
+    margin-top:20px;
   }
   .footerOuterbox_aboutusHeader {
     text-decoration: none;
@@ -2084,6 +2086,7 @@
   .footerOuterbox_servicesOuterbox {
     width:200px;
     height:250px;
+    margin-top:20px;
   }
   .footerOuterbox_servicesHeader {
     text-decoration: none;
@@ -2108,6 +2111,7 @@
   .footerOuterbox_contactusOuterbox {
     width:200px;
     height:250px;
+    margin-top:20px;
   }
   .footerOuterbox_contactusHeader {
     text-decoration: none;
@@ -2123,6 +2127,7 @@
   .footerOuterbox_careersOuterbox {
     width:200px;
     height:250px;
+    margin-top:20px;
   }
   .footerOuterbox_careersHeader {
     text-decoration: none;
